@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+      	<meta charset="utf-8">
+  	  	<!--
+the following line will be flagged as invalid by w3c validator; this can be fixed using a script that only injects this when IE is detected
+        -->
+  	  	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+  	  	<!-- remove the following line to enable phone number detection on mobile devices -->
+  	  	<meta name="format-detection" content="telephone=no">
+  	  	<!-- depending on target audience, "minimal-ui" may be removed from the viewport meta tag -->
+  	  	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  	  	<meta name="description" content="">
+
+  	  	<title>Vroom Foundation TESTS</title>
+
+  	  	<link rel="stylesheet" type="text/css" href="css/app.css">
+
+  	  	<!--[if lt IE 9]>
+		  	<link rel="stylesheet" type="text/css"  href="css/ie.css">
+  	  	<![endif]-->
+
+  	  	<!--[if lt IE 9]>
+        <script type="text/javascript" src="js/vendor/respond.min.js"></script>
+        <![endif]-->
+
+  	  	<script type="text/javascript" src="js/vendor/modernizr-2.8.3.js"></script>
+
+        <style type="text/css">
+          body { background: #2d2d2d; color: #fff; font-size: 100%; }
+          /* line 95, ../sass/styles.scss */
+          #info {
+            -webkit-transition: height 0.5s ease;
+            -moz-transition: height 0.5s ease;
+            -o-transition: height 0.5s ease;
+            transition: height 0.5s ease;
+            -webkit-hyphens: manual;
+            -moz-hyphens: manual;
+            hyphens: manual;
+            margin: 1em 0 .3em;
+            line-height: 1.3;
+          }
+          /* line 100, ../sass/styles.scss */
+          #info.closed {
+            display: none;
+          }
+          /* line 101, ../sass/styles.scss */
+          #info.opened {
+            display: block;
+          }
+
+          /* line 104, ../sass/styles.scss */
+          #view-info {
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+             font-size: 30px;
+            overflow: hidden;
+            display: block;
+            position: absolute;
+            height: 44px;
+            width: 44px;
+            top: -1px;
+            right: 0;
+          }
+          /* line 113, ../sass/styles.scss */
+          #view-info:hover {
+            opacity: 0.8;
+          }
+          /* line 114, ../sass/styles.scss */
+          #view-info:active {
+            opacity: 0.6;
+          }
+
+          @media screen and (-webkit-min-device-pixel-ratio: 1.3), screen and (min--moz-device-pixel-ratio: 1.3), screen and (-o-min-device-pixel-ratio: 2 / 1), screen and (min-device-pixel-ratio: 1.3), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+            /* line 123, ../sass/styles.scss */
+            #view-info {
+
+            }
+          }
+          /* line 129, ../sass/styles.scss */
+          h3 {
+            -moz-border-radius-topleft: 6px;
+            -webkit-border-top-left-radius: 6px;
+            border-top-left-radius: 6px;
+            -moz-border-radius-topright: 6px;
+            -webkit-border-top-right-radius: 6px;
+            border-top-right-radius: 6px;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            background: #ffcb49;
+            font-size: 1em;
+            line-height: 1;
+            margin: 2em 0 0;
+            border-bottom: 0;
+            padding: 1em;
+            width: 100%;
+          }
+
+          /* line 142, ../sass/styles.scss */
+          button {
+            font: bold 100% "Helvetica Neue", Helvetica, Arial, sans-serif;
+           /* text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);*/
+            background: #ffcb49;
+           /* background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffcb49), color-stop(100%, #ffbc16));
+            background-image: -webkit-linear-gradient(#ffcb49, #ffbc16 100%);
+            background-image: -moz-linear-gradient(#ffcb49, #ffbc16 100%);
+            background-image: -o-linear-gradient(#ffcb49, #ffbc16 100%);
+            background-image: linear-gradient(#ffcb49, #ffbc16 100%);*/
+            /*-webkit-border-radius: 6px;
+            -moz-border-radius: 6px;
+            -ms-border-radius: 6px;
+            -o-border-radius: 6px;
+            border-radius: 6px;*/
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            -moz-background-clip: padding;
+            -webkit-background-clip: padding;
+            background-clip: padding-box;
+            color: #000;
+            padding: 1em 0 1.1em;
+            margin: 1.5em 0 0;
+            cursor: pointer;
+            width: 100%;
+            border: 0;
+          }
+          /* line 156, ../sass/styles.scss */
+          button:hover {
+            background: #ffbc16;
+            background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffc430), color-stop(100%, #fbb400));
+            background-image: -webkit-linear-gradient(#ffc430, #fbb400 100%);
+            background-image: -moz-linear-gradient(#ffc430, #fbb400 100%);
+            background-image: -o-linear-gradient(#ffc430, #fbb400 100%);
+            background-image: linear-gradient(#ffc430, #fbb400 100%);
+          }
+          /* line 160, ../sass/styles.scss */
+          button:active {
+            background: #e2a100;
+            outline: none;
+          }
+          button:focus {
+            outline: none;
+          }
+          /* line 163, ../sass/styles.scss */
+          #iterations {
+            font-weight: normal;
+            display: inline;
+          }
+
+          /* line 168, ../sass/styles.scss */
+          #useragent {
+            background: #575757;
+            border: 1px solid #ffcb49;
+            color: #fff;
+            -moz-border-radius-bottomleft: 6px;
+            -webkit-border-bottom-left-radius: 6px;
+            border-bottom-left-radius: 6px;
+            -moz-border-radius-bottomright: 6px;
+            -webkit-border-bottom-right-radius: 6px;
+            border-bottom-right-radius: 6px;
+            -moz-background-clip: padding;
+            -webkit-background-clip: padding;
+            background-clip: padding-box;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            width: 100%;
+            padding: 1em;
+            margin: 0;
+            font-size: .75em;
+            line-height: normal;
+          }
+
+          /* line 182, ../sass/styles.scss */
+          #respondList,
+          .aspect-ratio,
+          .query,
+          .test-styles {
+            display: none;
+          }
+
+          /* line 186, ../sass/styles.scss */
+          ul {
+            background: #575757;
+            list-style: none;
+            border: 1px solid #ffcb49;
+            -moz-border-radius-bottomleft: 6px;
+            -webkit-border-bottom-left-radius: 6px;
+            border-bottom-left-radius: 6px;
+            -moz-border-radius-bottomright: 6px;
+            -webkit-border-bottom-right-radius: 6px;
+            border-bottom-right-radius: 6px;
+            -moz-background-clip: padding;
+            -webkit-background-clip: padding;
+            background-clip: padding-box;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            color: #fefefe;
+          }
+          /* line 192, ../sass/styles.scss */
+          ul li {
+            border-bottom: 1px solid #ffcb49;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            padding: 1em;
+            width: 100%;
+            margin: 0;
+          }
+          /* line 200, ../sass/styles.scss */
+          ul li:last-child, ul li.query, ul li.resolution {
+            border: 0;
+          }
+          /* line 202, ../sass/styles.scss */
+          ul b {
+            float: right;
+          }
+
+          /* line 205, ../sass/styles.scss */
+          ul, p {
+            margin-bottom: 1em;
+            font-size: .85em;
+          }
+
+          /* line 206, ../sass/styles.scss */
+          b {
+            font-weight: bold;
+          }
+
+          /* line 207, ../sass/styles.scss */
+          .nosupport {
+            display: block;
+          }
+
+          /* line 208, ../sass/styles.scss */
+          #orientation:before {
+            content: "unsupported";
+          }
+
+          /* line 210, ../sass/styles.scss */
+          a {
+            text-decoration: none;
+            color: #ffcb49;
+          }
+          /* line 213, ../sass/styles.scss */
+          a:hover {
+            text-decoration: underline;
+          }
+
+          /* line 216, ../sass/styles.scss */
+          .footer {
+            font-size: 87.5%;
+            -webkit-hyphens: manual;
+            -moz-hyphens: manual;
+            hyphens: manual;
+            line-height: 1.4;
+            padding-bottom: 1em;
+            margin-top: 2em;
+            width: 100%;
+          }
+
+          /* TESTS
+          --------------------------------------------- */
+          @media only all {
+            /* line 228, ../sass/styles.scss */
+            #respondList {
+              display: block;
+            }
+
+            /* line 229, ../sass/styles.scss */
+            .nosupport {
+              display: none;
+            }
+          }
+          @media (orientation: portrait) {
+            /* line 233, ../sass/styles.scss */
+            #orientation:before {
+              content: "portrait";
+            }
+
+            /* line 234, ../sass/styles.scss */
+            .orientation {
+              display: block;
+            }
+          }
+          @media (orientation: landscape) {
+            /* line 238, ../sass/styles.scss */
+            #orientation:before {
+              content: "landscape";
+            }
+
+            /* line 239, ../sass/styles.scss */
+            .orientation {
+              display: block;
+            }
+          }
+
+        </style>
+
+	</head>
+	<body>
+
+	<!--[if lt IE 8]>
+        <div class="chromeframe-container">
+            <div class="chromeframe-wrapper">
+                <div class="chromeframe-inner">
+                  <img class="aligncenter" src="http://placehold.it/350x150" alt="brand name"/>
+                  <h1 class="text-center">You are using an outdated browser.</h1>
+                  <p class="text-center">Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience and security online.</p>
+                </div>
+            </div>
+        </div>
+ 	<![endif]-->
+
+
+
+		<div class="row">
+			<div class="large-6 large-centered medium-10 medium-centered small-12 columns">
+      <a href="#" id="view-info" title="More info"><i class="fa fa-info-circle"></i></a>
+      <h2>Identify which media queries a device responds&nbsp;to</h2>
+      <p id="info" class="closed">This test isn’t about what media que&shy;ries your device <a href="http://www.jordanm.co.uk/palmreader" rel="external">can or cannot</a> see (but it does show an 'unsupported' label if a device doesn‘t support something). In&shy;stead it shows you which dimen&shy;sions your de&shy;vice will res&shy;pond to when using ‘width=device-width,initial-scale=1.’</p>
+      <button id="testButton">Refresh tests <span class="label secondary" id="iterations"></span></button>
+      <h3>Device responds to</h3>
+      <ul class="nosupport">
+        <li>Your browser doesn't support media queries :(</li>
+      </ul>
+      <ul id="respondList">
+        <li id="no_js">JavaScript is turned off or not supported.</li>
+        <script>document.getElementById('no_js').innerHTML = '';</script>
+      </ul>
+      <h3>User agent</h3>
+      <div id="useragent"></div>
+      <h3>More Tools for Media Queries:</h3>
+      <ul>
+        <li><a href="http://www.quirksmode.org/m/tests/widthtest_vpdevice.html" rel="external">Quirks&shy;mode.org</a></li>
+        <li><a href="http://andrew.hedges.name/experiments/aspect_ratio/" rel="external">Aspect Ratio Calculator</a></li>
+        </ul>
+
+			</div>
+		</div><!-- /row -->
+
+
+	<footer>
+	  <div class="row">
+      <div class="large-6 large-push-6 medium-6 medium-push-6 columns">
+	    </div>
+      <div class="large-6 large-pull-6 medium-6 medium-pull-6 columns">
+	      <p class="small-text-center"><small>&copy; 2014 Vroom.</small></p>
+	    </div>
+	  </div>
+	</footer>
+
+
+		<!-- SCRIPTS -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-2.1.3.min.js"><\/script>')</script>
+		<script type="text/javascript" src="js/vendor/min/vendor.min.js"></script>
+		<script type="text/javascript" src="js/custom/min/app.min.js"></script>
+
+    <!-- NOT FOR PRODUCTION USE -->
+    <script type="text/javascript" src="js/testing/mqTest.js"></script>
+    <script>
+      var device_ratio = screen.width + '/' + screen.height;
+      document.write('<style class="test-styles">@media screen and (device-aspect-ratio: ' + device_ratio + ') {.aspect-ratio-unsupported {display: none;} .aspect-ratio {display: block;}}</style>');
+
+      document.write('<style class="test-styles">');
+      for (var i=mq_step;i<maximumDPI+1;i+=mq_step) {
+        document.write('@media (min-resolution: ' + (i+1) + 'dpi) and (max-resolution: ' + (i+mq_step) + 'dpi) {');
+        document.write('#resolution' + i + '{display: list-item}');
+        document.write('.resolution {display: none;} }');
+      }
+      document.write('</style>');
+    </script>
+    <!-- END NOT FOR PRODUCTION USE -->
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+	</body>
+</html>

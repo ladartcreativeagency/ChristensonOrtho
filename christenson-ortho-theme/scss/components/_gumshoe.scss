@@ -1,0 +1,22 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the scroll spy "gumshoe" component.
+// -----------------------------------------------------------------------------
+ 
+// EXAMPLES ONLY
+ul.scrollSpyNav {
+  list-style: none;
+  position: fixed;
+  top: 4em;
+  
+  li a {
+    padding: 0.25em 0.5em;
+  }
+  li.active {
+    background: $aluminum;
+  }
+  li.active a {
+    color: $primary-color;
+  }
+}
+
+ 

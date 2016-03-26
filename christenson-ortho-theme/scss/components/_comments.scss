@@ -1,0 +1,47 @@
+
+h2.comments-title {
+
+}
+
+ol.comment-list {
+	list-style: none;
+}
+
+ol.comment-list li.comment, 
+ol.comment-list li.comment ol.children li {
+	margin-bottom: 1.2em;
+}
+
+ol.comment-list > li {
+	background: $snow;
+	border: 1px solid $smoke;
+	padding: 1em;
+}
+
+ol.comment-list li.comment ol.children {
+	list-style: none;
+}
+
+ol.comment-list li.comment ol.children > li {
+	background: $white;
+	border: 1px solid $smoke;
+	padding: 1em;
+}
+
+.comment-content a {
+	word-wrap: break-word;
+}
+
+.bypostauthor {
+	display: block;
+}
+
+.comment-metadata {
+  font-size: 0.75em;
+  margin-bottom: 1em;
+}
+
+.reply {
+	margin-bottom: 0.5em;
+	text-align: right;
+}

@@ -1,0 +1,145 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to single posts.
+// -----------------------------------------------------------------------------
+
+nav.post-navigation {
+
+}
+
+div.nav-links {
+	display: block;
+	width: 100%;
+	margin: 0em auto;
+	margin-top: 1em;
+	clear: both;
+	
+	div.nav-previous, 
+	div.nav-next {
+		@extend %inlineBlock;
+		text-align: center;
+		padding: 1em;
+		border: 1px solid $snow;
+	}
+
+	div.nav-previous {
+		width: 50%;
+	}
+	
+	div.nav-next {
+		width: 50%;
+	}
+
+}
+
+
+div.page-links {
+	border-top: 1px solid $smoke;
+	border-bottom: 1px solid $smoke;
+	padding: 1em;
+ margin: 1em auto;
+ text-align: center;
+
+ a {
+ 	padding: 1em;
+ 	background: $snow;
+ }
+}
+
+
+
+
+.gallery {
+	margin-bottom: 1.5em;
+}
+
+.gallery-item {
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	width: 100%;
+
+	.gallery-columns-2 & {
+		max-width: 50%;
+	}
+
+	.gallery-columns-3 & {
+		max-width: 33.33%;
+	}
+
+	.gallery-columns-4 & {
+		max-width: 25%;
+	}
+
+	.gallery-columns-5 & {
+		max-width: 20%;
+	}
+
+	.gallery-columns-6 & {
+		max-width: 16.66%;
+	}
+
+	.gallery-columns-7 & {
+		max-width: 14.28%;
+	}
+
+	.gallery-columns-8 & {
+		max-width: 12.5%;
+	}
+
+	.gallery-columns-9 & {
+		max-width: 11.11%;
+	}
+}
+
+.gallery-caption {
+	display: block;
+}
+
+
+
+
+// IMAGES
+.alignleft {
+    float: left;
+    margin:0 0.938em 1.875em 0;
+}
+.aligncenter {
+    display: block;
+    margin: 0em auto;
+}
+.alignright {
+    float: right;
+    margin:0 0 1.875em 0.938em;
+}
+.alignnone {
+    float: none;
+    display:block;
+    margin:0 0 1.875em 0;
+}
+.size-full {
+    width:100%;
+    height:auto;
+    margin:0 0 1.875em 0;
+}
+p .alignleft {
+    float: left;
+    margin:0.313em 0.938em 1.875em 0;
+}
+p .aligncenter {
+    display: block;
+    margin: 0.313em auto 1.875em auto;
+}
+p .alignright {
+    float: right;
+    margin:0.313em 0 1.875em 0.938em;
+}
+p .alignnone {
+    float: none;
+    display:block;
+    margin:0.313em 0 1.875em 0;
+}
+p .size-full {
+    width:100%;
+    height:auto;
+    margin:0.313em 0 1.875em 0;
+}

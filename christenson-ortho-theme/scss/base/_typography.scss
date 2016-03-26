@@ -1,0 +1,62 @@
+/**
+ * Basic typography style for copy text
+ */
+
+
+
+  h1 {
+
+  }
+
+  h2, h3, h4, h5, h6 {
+
+  }
+
+  blockquote {
+  
+  }
+
+  ul, ol {
+
+  }
+
+  p {
+    
+  }
+
+
+
+  // make empty paragraph tags not have any height
+  div.entry-content p.empty {
+    padding:0;
+    margin:0;
+    line-height:0;
+  }
+ 
+
+
+  // force crazy long titles to wrap
+  header.entry-header h2, 
+  body.single header.entry-header h1, 
+  h2.comments-title, 
+  div.comment-content,
+  .entry-content {
+    word-wrap: break-word;
+  }
+
+/**
+ *
+ * Turns <ul> list items into comma separated list
+ *
+ */
+ul.comma-separated {
+  list-style: none;
+  li {
+    display: inline-block;
+  }
+  li:not(:last-child)::after {
+    content: ",";
+  }
+}
+
+

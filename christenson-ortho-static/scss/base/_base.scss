@@ -1,0 +1,48 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+/**
+ * Set up 100% height on the root elements
+ * NEVER apply position: relative; to root elements
+ * More info at http://phrogz.net/css/htmlvsbody.html
+ */
+html, 
+body {
+	height: 100%;
+}
+
+
+/**
+ * Basic styles for links using on-event mixin
+ */
+// a {
+//   color: $primary-color;
+//   text-decoration: none;
+
+//   @include on-event {
+//     text-decoration: underline;
+//   }
+// }
+
+
+/*==============================
+=            Tables            =
+==============================*/
+table {
+	width: 100%;
+}
+table td {
+	border: 1px solid $gainsboro;
+}
+table tr th {
+	text-align: left;
+}
+table caption {
+	text-align: left;
+  font-size: 80%;
+  color: lighten($primary-color,20%);
+  font-style: italic;
+  padding-left: 0.5em;
+}
+/*=====  End of Tables  ======*/

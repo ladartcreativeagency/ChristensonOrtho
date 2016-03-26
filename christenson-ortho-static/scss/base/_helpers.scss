@@ -1,0 +1,94 @@
+// -----------------------------------------------------------------------------
+// This file contains CSS helper classes.
+// -----------------------------------------------------------------------------
+
+
+/**
+ * Clear inner floats
+ */
+.clearfix::after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+/**
+ * Hide text while making it readable for screen readers
+ * 1. Needed in WebKit-based browsers because of an implementation bug;
+ *    See: https://code.google.com/p/chromium/issues/detail?id=457146
+ */
+.hide-text {
+  overflow: hidden;
+  padding: 0; /* 1 */
+  text-indent: 101%;
+  white-space: nowrap;
+}
+
+/**
+ * Hide element while making it readable for screen readers
+ * Shamelessly borrowed from HTML5Boilerplate:
+ * https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L119-L133
+ */
+.visually-hidden { 
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+
+
+
+
+
+
+/*==========================================================
+=            Background / Image Size & Position            =
+==========================================================*/
+
+.bg-no-repeat { background-repeat: no-repeat; }
+.bg-cover     { background-size: cover; }
+.bg-contain   { background-size: contain; }
+.bg-center    { background-position: center; }
+.bg-top       { background-position: top; }
+.bg-right     { background-position: right; }
+.bg-bottom    { background-position: bottom; }
+.bg-left      { background-position: left; }
+
+.bg-fixed     { background-attachment: fixed; }
+.bg-local     { background-attachment: local; }
+
+// http://caniuse.com/#feat=object-fit = no IE support
+.img-cover      { object-fit: cover; }
+.img-contain    { object-fit: contain; }
+.img-fill       { object-fit: fill; }
+.img-scale-down { object-fit: scale-down; }
+
+/*=====  End of Background / Image Size & Position  ======*/
+
+
+
+/*=======================================
+=            Depth / z-index            =
+=======================================*/
+
+.depth-0  { z-index:   -1; }
+.depth-1  { z-index:  100; }
+.depth-2  { z-index:  200; }
+.depth-3  { z-index:  300; }
+.depth-4  { z-index:  400; }
+.depth-5  { z-index:  500; }
+.depth-6  { z-index:  600; }
+.depth-7  { z-index:  700; }
+.depth-8  { z-index:  800; }
+.depth-9  { z-index:  900; }
+.depth-10 { z-index: 1000; }
+
+/*=====  End of Depth / z-index  ======*/
+
+
+

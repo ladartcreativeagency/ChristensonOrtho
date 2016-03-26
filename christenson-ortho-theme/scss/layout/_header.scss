@@ -1,0 +1,88 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+
+#page {
+	
+}
+
+header#masthead {
+	position: relative;
+	display: block;
+	width: 100%;
+	margin: 0em auto;
+	padding: 0em;
+	background: $snow;
+	border-bottom: 2px solid $silver;
+}
+
+
+.site-branding {
+		width: 100%;
+		padding: 0.875em;
+		margin: 0em auto;
+		display: block;
+		float: left;
+	}
+	.site-branding > a > img {
+		margin: 0em auto; 
+	}
+
+
+
+// 	nav#site-navigation {
+		
+// 		.menu-main-nav-container {
+// 			ul.main-navigation { 
+// 				text-align: right;
+// 				li {
+// 					display: inline-block;
+// 					float: none;
+// 					padding: 1em;
+// 				}
+// 				li a {
+// 					text-transform: uppercase;
+// 				}
+// 			}
+// 		}
+		
+// 		button.menu-toggle {
+			
+// 		}
+// 	}
+
+
+
+
+
+
+
+
+// @media only screen and (max-width : 600px) { 
+
+	
+
+// 	nav#site-navigation {
+		
+// 		.menu-main-nav-container {
+// 			ul.main-navigation {
+// 				text-align: center;
+// 				li {
+// 					padding: 1em;
+// 					display: block;
+// 				}
+// 				li a {
+// 					text-transform: uppercase;
+// 				}
+// 			}
+// 		}
+		
+// 		button.menu-toggle {
+			
+// 		}
+// 	}
+
+
+
+
+// }

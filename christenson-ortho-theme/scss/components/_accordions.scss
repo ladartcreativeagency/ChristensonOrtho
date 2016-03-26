@@ -1,0 +1,180 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the accordion component.
+// -----------------------------------------------------------------------------
+ 
+ /*!
+ * Houdini v8.1.0: A simple collapse-and-expand script
+ * (c) 2015 Chris Ferdinandi
+ * MIT License
+ * http://github.com/cferdinandi/houdini
+ */
+
+/*  Hide the collapse and expand link or button by default */
+.collapse-toggle {
+  display: none;
+  visibility: hidden;
+}
+
+/*  If JavaScript is enabled, show the collapse and expand link or button */
+.js-houdini .collapse-toggle {
+  //display: inline;
+  display: block;
+  visibility: visible;
+  cursor: pointer;
+}
+
+/*  When expanded, hide "show" text.
+ *  When collapsed, hide "hide" text. */
+.active .collapse-text-show,
+.collapse-text-hide {
+  display: none;
+  visibility: hidden;
+}
+
+/*  When expanded, show "hide" text. */
+.active .collapse-text-hide {
+  display: inline;
+  visibility: visible;
+}
+
+/* If JavaScript is enabled, hide the collapsed element */
+.js-houdini .collapse {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  /*  Add animation when content expands and collapses */
+  // -webkit-transition: opacity 0.35s ease;
+  //         transition: opacity 0.35s ease;
+  transition: opacity 0.3s ease-out;
+  -webkit-transition: opacity 0.3s ease-out;
+  -moz-transition: opacity 0.3s ease-out;
+  -o-transition: opacity 0.3s ease-out;
+  -ms-transition: opacity 0.3s ease-out;
+}
+
+/*  When collapsed element has the .active class, show it
+ *  Uses max-height instead of display: none to allow for
+ *  CSS3 animations, which don't work on display values. */
+.js-houdini .collapse.active {
+  max-height: 9999em;
+  opacity: 1;
+}
+
+
+
+
+.accordion-component {
+  .button {
+    margin-bottom: 0em;
+  }
+}
+
+
+
+/*======================================
+=            Customizations            =
+======================================*/
+
+.collapse.active {
+  padding: 1.2em;
+}
+
+
+/*=====  End of Customizations  ======*/
+
+
+
+
+
+/*==========================================
+=            Show/Hide Checkbox            =
+==========================================*/
+
+.onoffswitch {
+    position: relative; 
+    width: 90px;
+    -webkit-user-select:none; 
+    -moz-user-select:none; 
+    -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; 
+    overflow: hidden; 
+    cursor: pointer;
+    border: 1px solid $iron; 
+    -webkit-border-radius: 0px; 
+       -moz-border-radius: 0px; 
+            border-radius: 0px;
+    margin-bottom: 0em;
+    letter-spacing: 0.05em;
+    font-style: italic;
+}
+.onoffswitch-inner {
+    display: block; 
+    width: 200%; 
+    margin-left: -100%;
+    -webkit-transition: margin 0.3s ease-in 0s;
+       -moz-transition: margin 0.3s ease-in 0s;
+         -o-transition: margin 0.3s ease-in 0s;
+            transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; 
+    float: left; 
+    width: 50%; 
+    height: 35px; 
+    padding: 0; 
+    line-height: 31px;
+    font-size: 0.875em; 
+    color: $white; 
+    font-family: $secondary-sans-font; 
+    font-weight: 700;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    border: 2px solid transparent; // if removed adjust label line-height
+    -webkit-background-clip: padding-box;
+       -moz-background-clip: padding-box;
+         -o-background-clip: padding-box;
+            background-clip: padding-box;
+}
+.onoffswitch-inner:before {
+    content: "show";
+    padding-left: 10px;
+    background-color: $iron; 
+    color: $tuatara;
+}
+.onoffswitch-inner:after {
+    content: "hide";
+    padding-right: 10px;
+    background-color: $charcoal; 
+    color: $white;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; 
+    width: 30px; 
+    margin: 0px;
+    background: $primary-color;
+    position: absolute; 
+    top: 0; 
+    bottom: 0;
+    right: 60px;
+    -webkit-transition: all 0.3s ease-in 0s;
+       -moz-transition: all 0.3s ease-in 0s;
+         -o-transition: all 0.3s ease-in 0s;
+            transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}
+
+/*=====  End of Show/Hide Checkbox  ======*/
+
+ 

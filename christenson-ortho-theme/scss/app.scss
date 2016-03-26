@@ -1,0 +1,150 @@
+/*==========  MAKE SURE THE CHARSET IS SET APPROPRIATELY  ==========*/
+@charset "UTF-8";
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,500,500italic,700italic,900,900italic,300,300italic,400italic);
+// font-family: 'Roboto', sans-serif;
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300);
+// font-family: 'Roboto Condensed', sans-serif;
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,900,700,300,900italic,700italic);
+// font-family: 'Merriweather', serif; 
+/*-----  End of FONTS IMPORT  ------*/
+ 
+/*==========  FOUNDATION NORMALIZE  ==========*/
+@import "vendor/normalize";
+
+/*===========================================
+=            FOUNDATION PARTIALS            =
+===========================================*/
+/*==========  EDIT VARS IN THIS FILE  ==========*/
+@import "vendor/foundation/variables";
+/*==========  EDIT VARS IN THIS FILE  ==========*/
+@import
+  "vendor/foundation/components/global",
+  "vendor/foundation/components/grid",
+  "vendor/foundation/components/visibility",
+  "vendor/foundation/components/block-grid",
+  "vendor/foundation/components/type",
+  "vendor/foundation/components/buttons",
+  "vendor/foundation/components/forms",
+  "vendor/foundation/components/button-groups",
+  "vendor/foundation/components/dropdown-buttons",
+  "vendor/foundation/components/split-buttons",
+  "vendor/foundation/components/flex-video",
+  "vendor/foundation/components/section",
+  "vendor/foundation/components/top-bar",
+  "vendor/foundation/components/orbit",
+  "vendor/foundation/components/reveal",
+  "vendor/foundation/components/joyride",
+  "vendor/foundation/components/clearing",
+  "vendor/foundation/components/alert-boxes",
+  "vendor/foundation/components/breadcrumbs",
+  "vendor/foundation/components/custom-forms",
+  "vendor/foundation/components/keystrokes",
+  "vendor/foundation/components/labels",
+  "vendor/foundation/components/inline-lists",
+  "vendor/foundation/components/pagination",
+  "vendor/foundation/components/panels",
+  "vendor/foundation/components/pricing-tables",
+  "vendor/foundation/components/progress-bars",
+  "vendor/foundation/components/side-nav",
+  "vendor/foundation/components/sub-nav",
+  "vendor/foundation/components/switch",
+  "vendor/foundation/components/magellan",
+  "vendor/foundation/components/tables",
+  "vendor/foundation/components/thumbs",
+  "vendor/foundation/components/tooltips",
+  "vendor/foundation/components/dropdown";
+/*==========  THIS ADDS MEDIUM GRID SUPPORT FOR FOUNDATION 4.3.2  ==========*/
+@import "vendor/foundation/components/grid-5";
+/*-----  End of FOUNDATION PARTIALS  ------*/
+
+
+
+/*=========================================
+=            FONT ICONS STACKS            =
+=========================================*/
+@import
+  "vendor/fontawesome/variables",
+  "vendor/fontawesome/mixins",
+  "vendor/fontawesome/path",
+  "vendor/fontawesome/core",
+  "vendor/fontawesome/larger",
+  "vendor/fontawesome/fixed-width",
+  "vendor/fontawesome/list",
+  "vendor/fontawesome/bordered-pulled",
+  "vendor/fontawesome/animated",
+  "vendor/fontawesome/rotated-flipped",
+  "vendor/fontawesome/stacked",
+  "vendor/fontawesome/icons";
+/*-----  End of FONT ICONS STACKS  ------*/
+
+
+
+
+/*=================================
+=            UTILITIES            =
+=================================*/
+@import "utils/variables",
+        "utils/functions",
+        "utils/mixins", 
+        "utils/extends",  
+        "utils/text-alignment-helpers";
+/*-----  End of UTILITIES  ------*/
+
+
+
+/*=====================================
+=            BASE SETTINGS            =
+=====================================*/
+@import "base/browser-hacks",
+        "base/base",
+        "base/fonts",
+        "base/helpers",
+        "base/typography";
+/*-----  End of BASE SETTINGS  ------*/
+
+
+/*==================================
+=            COMPONENTS            =
+==================================*/
+@import "components/page-loading-indicator",
+        "components/accessibility",
+        "components/navigation",
+        "components/buttons",
+        "components/forms/forms",
+        "components/modals",
+        "components/tabs",
+        "components/accordions",
+        "components/comments";
+/*-----  End of COMPONENTS  ------*/
+
+
+/*==============================
+=            LAYOUT            =
+==============================*/
+@import "layout/header",
+        "layout/footer";
+/*-----  End of LAYOUT  ------*/
+
+
+/*====================================
+=            THEME STYLES            =
+====================================*/
+@import "themes/default";
+/*-----  End of THEME STYLES  ------*/
+
+
+/*===================================
+=            PAGE STYLES            =
+===================================*/
+@import "pages/home",
+        "pages/posts-single";
+/*-----  End of PAGE STYLES  ------*/
+
+
+
+
+
+
+
+

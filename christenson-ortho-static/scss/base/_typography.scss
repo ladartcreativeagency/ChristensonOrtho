@@ -1,0 +1,84 @@
+/**
+ * Basic typography style for copy text
+ */
+
+
+
+  h1 {
+
+  }
+
+  h2, h3, h4, h5, h6 {
+
+  }
+
+  blockquote {
+  
+  }
+
+  ul, ol {
+
+  }
+
+  p {
+    
+  }
+
+
+
+
+
+
+/*=============================================
+=            Comma Separated Lists            =
+=============================================*/ 
+/**
+ *
+ * Turns <ul> list items into comma separated list
+ *
+ */
+
+ul.comma-separated {
+  list-style: none;
+  li {
+    display: inline-block;
+  }
+  li:not(:last-child)::after {
+    content: ",";
+  }
+} 
+
+/*=====  End of Comma Separated Lists  ======*/
+
+
+
+
+
+
+/*======================================
+=            Heading Labels            =
+======================================*/
+/**
+ *
+ * Header Label Vars
+ *
+ */
+
+$header-label-letter-spacing: -0.05em;
+$header-label-font: $primary-sans-font;
+$header-label-font-size: 50%;
+$header-label-font-style: uppercase;
+
+
+span.header-label {
+  display: block;
+  line-height: inherit;
+  font-size: $header-label-font-size;
+  text-transform: $header-label-font-style;
+  font-family: $header-label-font;
+  font-weight: $body-font-weight;
+  letter-spacing: $header-label-letter-spacing;
+  color: lighten($header-font-color,20%);
+} 
+/*=====  End of Heading Labels  ======*/
+

@@ -1,0 +1,8 @@
+/* made by VROOM, an interactive design and development agency in Atlanta, GA */
+/* vroom.digital */
+/* humanstxt.org */
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: jQuery, TweenMax, Foundation 4
+  Software: SublimeText3, Node JS, Git
