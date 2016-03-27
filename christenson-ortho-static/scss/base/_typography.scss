@@ -24,10 +24,20 @@
     
   }
 
+  .strong {
+    font-weight: 700;
+  }
 
+  a.text-link {
+    border-bottom: 1px solid $secondary-color;
+    color: $secondary-color;
+    font-weight: 700;
+  }
 
-
-
+  span.separator-bar {
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+  }
 
 /*=============================================
 =            Comma Separated Lists            =

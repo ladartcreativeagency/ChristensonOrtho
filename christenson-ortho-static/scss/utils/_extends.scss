@@ -18,6 +18,16 @@
     -ms-behavior: url(backgroundsize.min.htc);
 }
 
+%bgSizeContain {
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+    /* The url is relative to the document, not to the css file! */
+    /* Prefer absolute urls to avoid confusion. */
+    -ms-behavior: url(backgroundsize.min.htc);
+}
+
 /**
 *
 * Cross Browser inline block

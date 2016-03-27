@@ -36,11 +36,12 @@
 
     //@codekit-append "pace.min.js";
 
+    //@codekit-append "jquery.slimmenu.js";
+
     //@codekit-append "jquery.placeholder.js"; 
     //@codekit-append "jquery.selectric.js"; 
     //@codekit-append "icheck.min.js";
     //@codekit-append "bootstrap.file-input.js";
-    
 	//@codekit-append "greensock/TweenMax.min.js";
 	//@codekit-append "modals.min.js";
 	//@codekit-append "tabby.min.js"; 

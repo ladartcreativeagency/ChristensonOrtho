@@ -23,6 +23,7 @@ jQuery(document).ready(function($) {
   		svgeezy.init(false, 'png'); // don't forget to generate pngs from svgs for production
 
       webformEnhancements();
+  		mainNav();
       
       modals.init({
 				modalActiveClass: 'active',
@@ -44,10 +45,11 @@ jQuery(document).ready(function($) {
       
       exampleScript();
       injectSVG();
-  		linkIndicatorBtnAnim();
+  		linkIndicatorBtnAnim(); 
   }
 
   //@codekit-append "webformEnhancements";
+  //@codekit-append "mainNav.js";
   //@codekit-append "exampleScript.js";
   //@codekit-append "buttonAnimations.js";
 

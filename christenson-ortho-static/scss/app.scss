@@ -1,10 +1,15 @@
 /*==========  MAKE SURE THE CHARSET IS SET APPROPRIATELY  ==========*/
 @charset "UTF-8";
 
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,500,500italic,700italic,900,900italic,300,300italic,400italic);
-// font-family: 'Roboto', sans-serif;
-@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300);
-// font-family: 'Roboto Condensed', sans-serif;
+// HEADINGS
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+// font-family: 'Montserrat', sans-serif;
+// $primary-sans-font
+
+// BODY COPY
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,400italic,600,700,900);
+// font-family: 'Source Sans Pro', sans-serif;
+// $secondary-sans-font
 
 /*-----  End of FONTS IMPORT  ------*/
  
@@ -113,7 +118,8 @@
         "components/forms/forms",
         "components/modals",
         "components/tabs",
-        "components/accordions";
+        "components/accordions",
+        "components/slimmenu";
 /*-----  End of COMPONENTS  ------*/
 
 

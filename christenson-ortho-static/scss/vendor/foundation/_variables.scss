@@ -61,16 +61,16 @@ $em-base: 16px !default;
 
 // Various global styles
 
-   $primary-serif-font: "Merriweather", serif;
-   $primary-sans-font: "Roboto", serif;
-   $secondary-sans-font: "Roboto Condensed", serif;
+   $primary-serif-font: "Source Sans Pro", sans-serif;
+   $primary-sans-font: "Montserrat", sans-serif;
+   $secondary-sans-font: "Source Sans Pro", sans-serif;
  
 	$default-float: left;
 
    $body-bg: #fefefe;
    $body-font-color: #212121;
-   $body-font-family: "Roboto", "Helvetica", Helvetica, Arial, sans-serif;
-   $body-font-weight: 500;
+   $body-font-family: $secondary-sans-font, "Helvetica", Helvetica, Arial, sans-serif;
+   $body-font-weight: 400;
    $body-font-style: normal;
 
 // Font-smoothing
@@ -86,8 +86,8 @@ $em-base: 16px !default;
    // Project Specific Brand Colors 
    
    // Base colors
-   $primary-color: #e432ac; //#1387b1
-   $secondary-color: #70b7fd;
+   $primary-color: #00695C; //#1387b1
+   $secondary-color: #2979FF;
    $alert-color: #ed2223;
    $success-color: #5acb6e; 
    
@@ -231,7 +231,7 @@ $em-base: 16px !default;
 
 // Control header font styles
 
-   $header-font-family: 'Roboto Condensed', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+   $header-font-family: $primary-sans-font, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
    $header-font-weight: 700; // Set font weight here
    $header-font-style: normal;
    $header-font-color: $primary-color;
@@ -264,8 +264,8 @@ $em-base: 16px !default;
 
 // Style paragraphs
 
-   $paragraph-font-family: inherit;
-   $paragraph-font-weight: normal; // Set font weight here
+   $paragraph-font-family: $secondary-sans-font;
+   $paragraph-font-weight: 400; // Set font weight here
    $paragraph-font-size: 1em; // 0.875em = 14px | 1em = 16px
    $paragraph-line-height: 1.6;
    $paragraph-margin-bottom: em-calc(20);
@@ -298,7 +298,7 @@ $em-base: 16px !default;
    $list-style-position: outside;
    $list-side-margin: 0em; // for any list other than list-style: none; ul's this needs to be reset to margin-left: 1.5em;
    $list-nested-margin: em-calc(20);
-   $definition-list-header-weight: bold; // Set font weight here
+   $definition-list-header-weight: 900; // Set font weight here
    $definition-list-header-margin-bottom: .3em;
    $definition-list-margin-bottom: em-calc(12);
 
@@ -328,19 +328,19 @@ $em-base: 16px !default;
 
 // Control full name font styles
 
-   $microformat-fullname-font-weight: bold; // Set font weight here
+   $microformat-fullname-font-weight: 700; // Set font weight here
    $microformat-fullname-font-size: em-calc(15);
 
 // Control the summary font styles
 
-   $microformat-summary-font-weight: bold; // Set font weight here
+   $microformat-summary-font-weight: 700; // Set font weight here
 
 // Control abbr padding
    $microformat-abbr-padding: em-calc(0 1);
 
 // Control abbr font styles
 
-   $microformat-abbr-font-weight: bold; // Set font weight here
+   $microformat-abbr-font-weight: 700; // Set font weight here
    $microformat-abbr-font-decoration: none;
 
 //
@@ -382,7 +382,7 @@ $em-base: 16px !default;
 // We use these to style the legends when you use them
 
    $legend-bg: #fff;
-   $legend-font-weight: bold; // Set font weight here
+   $legend-font-weight: 300; // Set font weight here
    $legend-padding: em-calc(0 3);
 
 // We use these to style the prefix and postfix input elements
@@ -400,7 +400,7 @@ $em-base: 16px !default;
    $input-error-message-padding: em-calc(6 4);
    $input-error-message-top: 0;
    $input-error-message-font-size: em-calc(12);
-   $input-error-message-font-weight: bold; // Set font weight here
+   $input-error-message-font-weight: 700; // Set font weight here
    $input-error-message-font-color: #fff;
    $input-error-message-font-color-alt: $oil;
 
@@ -427,14 +427,14 @@ $em-base: 16px !default;
 
 // We use these to control button text styles.
 
-   $button-font-family: inherit;
+   $button-font-family: $primary-sans-font;
    $button-font-color: #fff;
    $button-font-color-alt: $oil;
    $button-font-med: em-calc(16);
    $button-font-tny: em-calc(11);
    $button-font-sml: em-calc(13);
    $button-font-lrg: em-calc(20);
-   $button-font-weight: bold; // Set font weight here
+   $button-font-weight: 700; // Set font weight here
    $button-font-align: center;
 
 // We use these to control various hover effects.
@@ -858,7 +858,7 @@ $em-base: 16px !default;
 // We use these to style the label text
 
    $label-font-sizing: em-calc(14);
-   $label-font-weight: bold; // Set font weight here
+   $label-font-weight: 700; // Set font weight here
    $label-font-color: #333;
    $label-font-color-alt: #fff;
 
@@ -946,7 +946,7 @@ $em-base: 16px !default;
 
    $pagination-link-current-background: $primary-color;
    $pagination-link-current-font-color: #fff;
-   $pagination-link-current-font-weight: bold; // Set font weight here
+   $pagination-link-current-font-weight: 700; // Set font weight here
    $pagination-link-current-cursor: default;
    $pagination-link-current-active-bg: $primary-color;
 
@@ -1253,7 +1253,7 @@ $em-base: 16px !default;
    $table-head-bg: #f5f5f5;
    $table-head-font-size: em-calc(14);
    $table-head-font-color: #222;
-   $table-head-font-weight: bold; // Set font weight here
+   $table-head-font-weight: 700; // Set font weight here
    $table-head-padding: em-calc(8 10 10);
 
 // These control the row padding and font styles
