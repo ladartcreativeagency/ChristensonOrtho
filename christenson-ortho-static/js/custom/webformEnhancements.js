@@ -12,11 +12,11 @@ function webformEnhancements() {
 
 
 	// Custom fancy select input
-	$('select').selectric({
-  	disableOnMobile: false,
-  	// arrowButtonMarkup: '&lt;b class=&quot;button&quot;&gt;&amp;#x25be;&lt;/b&gt;',
-  	responsive: true
-	});
+	// $('select').selectric({
+ //  	disableOnMobile: true,
+ //  	// arrowButtonMarkup: '&lt;b class=&quot;button&quot;&gt;&amp;#x25be;&lt;/b&gt;',
+ //  	responsive: true
+	// });
 
 
   // Custom File upload input

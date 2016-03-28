@@ -40,17 +40,38 @@
   width: 1px;
 }
 
+.no-bottom {
+  margin-bottom: 0em;
+}
 
+.increase-120 {
+  font-size: 120%;
+}
+
+.increase-140 {
+  font-size: 140%;
+}
+
+.strong-text {
+  font-weight: 900;
+}
 
 img.aligncenter {
   display: block;
   margin: 0em auto;
 }
 
+img.brandmark {
+  margin-top: 1em;
+  margin-bottom: -1em;
+}
+
 .white {
   color: $white;
 }
-
+.sand {
+  color: $sand;
+}
 
 
 /*==========================================================

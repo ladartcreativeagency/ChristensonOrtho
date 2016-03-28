@@ -90,7 +90,8 @@ $em-base: 16px !default;
    $secondary-color: #2979FF;
    $alert-color: #ed2223;
    $success-color: #5acb6e; 
-   
+   $sand: #d4c5ad;
+
    // 19 Shades of gray color variables
    $white         : #FFFFFF !default;
    $ghost         : #FAFAFA !default;
@@ -265,7 +266,7 @@ $em-base: 16px !default;
 // Style paragraphs
 
    $paragraph-font-family: $secondary-sans-font;
-   $paragraph-font-weight: 400; // Set font weight here
+   $paragraph-font-weight: 300; // Set font weight here
    $paragraph-font-size: 1em; // 0.875em = 14px | 1em = 16px
    $paragraph-line-height: 1.6;
    $paragraph-margin-bottom: em-calc(20);
@@ -273,6 +274,8 @@ $em-base: 16px !default;
    $paragraph-aside-line-height: 1.35;
    $paragraph-aside-font-style: italic;
    $paragraph-text-rendering: optimizeLegibility;
+
+   $link-color: #7aa2ad;
 
 // Style <code> tags
 

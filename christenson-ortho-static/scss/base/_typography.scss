@@ -11,6 +11,19 @@
   h2, h3, h4, h5, h6 {
 
   }
+  
+  h3 {
+    color: rgba($primary-color,0.7);
+    margin-top: 2em;
+  }
+  
+  h4 {
+    border-bottom: 2px solid rgba($primary-color,0.3);
+    margin-top: 2em;
+    margin-bottom: 1em;
+    display: inline-block;
+  }
+
 
   blockquote {
   
@@ -39,6 +52,31 @@
     margin-left: 0.5em;
   }
 
+
+
+ ul.hyphen-list {
+  list-style: none;
+  margin-left: 2em;
+  font-size: 1.15em;
+  li {
+    margin-bottom: 1em;
+
+    &:last-child {
+      margin-bottom: 0em;
+    }
+  }
+  li:before {
+    content: " - ";
+    display: inline-block;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    margin-left: -1.975em;
+    border: 1px solid;
+    border-color: $smoke;
+    text-align: center;
+    margin-right: 0.5em;
+  }
+ }
 /*=============================================
 =            Comma Separated Lists            =
 =============================================*/ 
@@ -62,7 +100,11 @@ ul.comma-separated {
 
 
 
+hr.section-break {
+  margin-top: 4em;
+  margin-bottom: 4em;
 
+}
 
 
 /*======================================

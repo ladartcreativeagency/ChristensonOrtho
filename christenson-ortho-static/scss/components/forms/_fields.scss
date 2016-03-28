@@ -69,7 +69,9 @@ input:-ms-input-placeholder {
 
 
 
-
+select {
+     margin: 0 0 0em 0;
+}
 
 
 // Delete this if this project is not on WordPress using Formidable Pro plugin
@@ -271,3 +273,52 @@ input:-ms-input-placeholder {
 
 
 /*=====  End of iCheckbox Plugin  ======*/
+
+
+
+
+
+/*==================================================
+=            Custom Select Box CSS ONLY            =
+==================================================*/
+p.anchor-nav-descr {
+    margin-left: 0.25em;
+    text-transform: lowercase;
+}
+.anchor-menu {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2em;
+    border: 1px solid rgba($primary-color,0.7);
+    width: 100%;
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 3px;
+    overflow: hidden;
+    background-color: $white;
+
+    background: $white url(../img/nextPageArrow.gif) no-repeat 90% 50%;
+}
+
+.anchor-menu select {
+    padding: 1em 0.5em;
+    font-weight: 900;
+    color: $primary-color;
+    width: 100%;
+    border: none;
+    -webkit-box-shadow: none;
+       -moz-box-shadow: none;
+            box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+}
+
+.anchor-menu select:focus {
+    outline: none;
+}
+
+/*=====  End of Custom Select Box CSS ONLY  ======*/
+

@@ -6,10 +6,10 @@
 header.page-header {
 	  position:relative;
     width: 100%; 
-    overflow:hidden;
 
-		padding: 1em 0em;
+		padding: 0em 0em 0em 0em;
 	
+  box-shadow: 0px 4px 7px rgba($black,0.2);
  //  background: url(../img/patients-collage-wide.jpg) top center no-repeat;
 	
 	// -webkit-background-size: cover;
