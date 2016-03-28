@@ -98,6 +98,21 @@ main#main-content {
 		}
 	}
 }
+
+
+
+
+
+
+.panel {
+	background: $white;
+	border-color: $smoke;
+	box-shadow: 0px 0px 6px rgba($black,0.2);
+}
+
+
+
+
 /**
  * Basic styles for links using on-event mixin
  */

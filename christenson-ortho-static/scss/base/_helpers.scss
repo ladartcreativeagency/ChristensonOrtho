@@ -44,6 +44,10 @@
   margin-bottom: 0em;
 }
 
+.no-margin {
+  margin: 0em;
+}
+
 .increase-120 {
   font-size: 120%;
 }
@@ -64,6 +68,7 @@ img.aligncenter {
 img.brandmark {
   margin-top: 1em;
   margin-bottom: -1em;
+  max-width: 98%;
 }
 
 .white {
@@ -73,6 +78,9 @@ img.brandmark {
   color: $sand;
 }
 
+.muted {
+  color: $sand !important;
+}
 
 /*==========================================================
 =            Background / Image Size & Position            =
