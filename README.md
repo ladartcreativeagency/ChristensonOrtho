@@ -23,3 +23,5 @@
 ## Other Thoughts:
 
  [ - ] Create mailchimp account if they have an email list of patients for effecient communications
+ 
+ [ - ] Could offer a payment calculator like the one here http://www.invisalign.com/cost
