@@ -40,12 +40,28 @@
   width: 1px;
 }
 
+
+
+
+
+img.add-bottom {
+  margin-bottom: 1.25em !important;
+}
+
 .no-bottom {
   margin-bottom: 0em;
 }
 
 .no-margin {
   margin: 0em;
+}
+
+.decrease-50 {
+  font-size: 50%;
+}
+
+.decrease-20 {
+  font-size: 80%;
 }
 
 .increase-120 {
@@ -76,6 +92,9 @@ img.brandmark {
 }
 .sand {
   color: $sand;
+}
+.green {
+  color: $primary-color;
 }
 
 .muted {

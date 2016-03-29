@@ -1,6 +1,7 @@
 <?php
 $title = "Christenson Orthodontics - Board Certified Specialists in Orthodontics - Chesapeake, VA";
 $bodyClass = "homepage";
+$metadescription = "";
 ?>
 
 <?php include("_layouts/default-head.php"); ?>

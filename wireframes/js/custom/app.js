@@ -42,14 +42,15 @@ jQuery(document).ready(function($) {
 			    initClass: 'js-tabby', // Class added to <html> element when initiated
 			    callback: function ( toggle, tabID ) {} // Function that's run after tab content is toggled
 			});
-
+						anchorNav();
       exampleScript();
       injectSVG();
-		linkIndicatorBtnAnim();
+						linkIndicatorBtnAnim();
   }
 
   //@codekit-append "webformEnhancements";
   //@codekit-append "mainNav.js";
+  //@codekit-append "anchorNav.js";
   //@codekit-append "exampleScript.js";
   //@codekit-append "buttonAnimations.js";
 

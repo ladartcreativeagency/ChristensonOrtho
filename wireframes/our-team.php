@@ -1,6 +1,7 @@
 <?php
 $title = "Christenson Orthodontics - Our Team";
 $bodyClass = "our-team";
+$metadescription = "";
 ?>
 
 <?php include("_layouts/default-head.php"); ?>
@@ -17,9 +18,15 @@ $bodyClass = "our-team";
 
 <main id="main-content">
   <div class="row">
-    <div class="large-8 large-centered medium-10 medium-centered small-12 columns">
-
-
+    <div class="large-11 large-centered medium-11 medium-centered small-12 columns">
+<img src="img/group-team-photo.jpg" class="aligncenter add-bottom" alt="Christenson Orthodontics Staff">
+<img src="img/abbey-profile.jpg" class="profile-img" alt="Abbey">
+<img src="img/jen-c-profile.jpg" class="profile-img" alt="Jen">
+<img src="img/jennie-profile.jpg" class="profile-img" alt="Jennie">
+<img src="img/kelli-profile.jpg" class="profile-img" alt="Kelli">
+<img src="img/rebecca-profile.jpg" class="profile-img" alt="Rebecca">
+<img src="img/tracy-profile.jpg" class="profile-img" alt="Tracy">
+<img src="img/whit-profile.jpg" class="profile-img" alt="Whitney">
 
     </div>
   </div>

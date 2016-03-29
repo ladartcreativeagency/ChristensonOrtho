@@ -8,12 +8,8 @@
 
   <title><?php echo $title; ?></title>
 
-  <meta name="description" content="" />
-  <meta name="author" content="" />
-  <meta name="keywords" content="" />
-
-
-
+  <meta name="description" content="<?php echo $metadescription; ?>" />
+  
   <!-- Icons -->
   <!-- Note: One touch icon works but is a tad heavier (http://mathiasbynens.be/notes/touch-icons) -->
   <!--
@@ -65,7 +61,7 @@
         <div class="row">
             <div class="large-6 medium-6 small-12 columns">
                 <p class="large-text-left medium-text-left small-text-center">
-                    <a class="modal-link" href="contact.php">Great Bridge Office</a>  <span class="separator-bar">|</span>  <a class="modal-link" href="contact.php">Deep Creek Office</a>
+                    <a class="modal-link" href="contact.php#great-bridge">Great Bridge Office</a>  <span class="separator-bar">|</span>  <a class="modal-link" href="contact.php#deep-creek">Deep Creek Office</a>
                 </p>
             </div>
             <div class="large-6 medium-6 small-12 columns">

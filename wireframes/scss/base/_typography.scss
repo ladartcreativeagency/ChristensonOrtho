@@ -19,6 +19,9 @@ mark {
   h3, h4, h5, h6 {
     color: $monsoon;
   }
+  .panel h3, .panel h4, .panel h5, .panel h6 {
+    color: $monsoon;
+  }
 
   h3 {
     //color: rgba($primary-color,0.7);
@@ -143,13 +146,23 @@ ul.comma-separated {
 
 
 
+// hr.section-break {
+//   margin-top: 4em;
+//   margin-bottom: 4em;
+//   height: 13px;
+//   background: url(../img/braces-hr-bg-1140.svg) no-repeat center center;
+//   border: 0;
+// }
+
 hr.section-break {
-  margin-top: 4em;
-  margin-bottom: 4em;
+  margin-top: 6em;
+  margin-bottom: 6em;
   height: 6px;
   background: url(../img/hr-zigzag.png) repeat-x 0 0;
   border: 0;
 }
+
+
 
 
 /*======================================

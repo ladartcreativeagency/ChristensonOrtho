@@ -25,11 +25,14 @@ header.page-header {
 	padding: 0.25em 0em;
 	font-size: 0.875em;
 	color: $white;
+	
+
 	a {
 		color: $white;
 	}
 	p, ul {
 		margin-bottom: 0em;
+		line-height: 38px;
 	}
 }
 
