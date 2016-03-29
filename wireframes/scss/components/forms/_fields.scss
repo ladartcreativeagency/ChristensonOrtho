@@ -1,0 +1,323 @@
+// All inputs
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="time"],
+input[type="color"],
+input[type="datalist"],
+textarea {
+
+}
+
+// All inputs :focus state
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="range"]:focus,
+input[type="datalist"]:focus,
+textarea:focus {
+    outline: none;
+}
+
+// All inputs other than textareas
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"] {
+
+}
+
+// File upload inputs
+input[type="file"] {
+    padding: 1.25em;
+}
+
+input[type="file"]:hover {
+    background: $primary-color;
+}
+
+input[type="file"]:focus {
+    outline: none;
+}
+
+// Textareas
+textarea {
+    width: 100%;
+    min-height: 100px;
+}
+
+textarea:hover,
+textarea:focus {}
+
+// Input placeholder text color
+input::-webkit-input-placeholder {
+    color: $iron !important;
+} // change color here as needed
+
+input::-moz-placeholder {
+    color: $iron !important;
+} // change color here as needed
+
+input:-ms-input-placeholder {
+    color: $iron !important;
+} // change color here as needed
+
+
+
+select {
+     margin: 0 0 0em 0;
+}
+
+
+// Delete this if this project is not on WordPress using Formidable Pro plugin
+.frm_error {
+    color: $alert-color;
+    font-size: .5em;
+    bottom: 10px;
+    position: relative;
+}
+
+
+
+
+
+/*========================================
+=            iCheckbox Plugin            =
+========================================*/
+/* iCheck plugin Square skin, grey
+----------------------------------- */
+.icheckbox_square-grey,
+.iradio_square-grey {
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 22px;
+    height: 22px;
+    background: url(../img/grey.png) no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+.icheckbox_square-grey {
+    background-position: 0 0;
+}
+    .icheckbox_square-grey.hover {
+        background-position: -24px 0;
+    }
+    .icheckbox_square-grey.checked {
+        background-position: -48px 0;
+    }
+    .icheckbox_square-grey.disabled {
+        background-position: -72px 0;
+        cursor: default;
+    }
+    .icheckbox_square-grey.checked.disabled {
+        background-position: -96px 0;
+    }
+
+.iradio_square-grey {
+    background-position: -120px 0;
+}
+    .iradio_square-grey.hover {
+        background-position: -144px 0;
+    }
+    .iradio_square-grey.checked {
+        background-position: -168px 0;
+    }
+    .iradio_square-grey.disabled {
+        background-position: -192px 0;
+        cursor: default;
+    }
+    .iradio_square-grey.checked.disabled {
+        background-position: -216px 0;
+    }
+
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 1.25dppx) {
+    .icheckbox_square-grey,
+    .iradio_square-grey {
+        background-image: url(../img/grey@2x.png);
+        -webkit-background-size: 240px 24px;
+        background-size: 240px 24px;
+    }
+}
+
+
+/* iCheck plugin Minimal skin, grey
+----------------------------------- */
+.icheckbox_minimal-grey,
+.iradio_minimal-grey {
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 18px;
+    height: 18px;
+    background: url(../img/grey.png) no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+.icheckbox_minimal-grey {
+    background-position: 0 0;
+}
+    .icheckbox_minimal-grey.hover {
+        background-position: -20px 0;
+    }
+    .icheckbox_minimal-grey.checked {
+        background-position: -40px 0;
+    }
+    .icheckbox_minimal-grey.disabled {
+        background-position: -60px 0;
+        cursor: default;
+    }
+    .icheckbox_minimal-grey.checked.disabled {
+        background-position: -80px 0;
+    }
+
+.iradio_minimal-grey {
+    background-position: -100px 0;
+}
+    .iradio_minimal-grey.hover {
+        background-position: -120px 0;
+    }
+    .iradio_minimal-grey.checked {
+        background-position: -140px 0;
+    }
+    .iradio_minimal-grey.disabled {
+        background-position: -160px 0;
+        cursor: default;
+    }
+    .iradio_minimal-grey.checked.disabled {
+        background-position: -180px 0;
+    }
+
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 1.25dppx) {
+    .icheckbox_minimal-grey,
+    .iradio_minimal-grey {
+        background-image: url(../img/grey@2x.png);
+        -webkit-background-size: 200px 20px;
+        background-size: 200px 20px;
+    }
+}
+
+
+/* iCheck plugin Minimal skin, black
+----------------------------------- */
+.icheckbox_minimal,
+.iradio_minimal {
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 18px;
+    height: 18px;
+    background: url(../img/minimal.png) no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+.icheckbox_minimal {
+    background-position: 0 0;
+}
+    .icheckbox_minimal.hover {
+        background-position: -20px 0;
+    }
+    .icheckbox_minimal.checked {
+        background-position: -40px 0;
+    }
+    .icheckbox_minimal.disabled {
+        background-position: -60px 0;
+        cursor: default;
+    }
+    .icheckbox_minimal.checked.disabled {
+        background-position: -80px 0;
+    }
+
+.iradio_minimal {
+    background-position: -100px 0;
+}
+    .iradio_minimal.hover {
+        background-position: -120px 0;
+    }
+    .iradio_minimal.checked {
+        background-position: -140px 0;
+    }
+    .iradio_minimal.disabled {
+        background-position: -160px 0;
+        cursor: default;
+    }
+    .iradio_minimal.checked.disabled {
+        background-position: -180px 0;
+    }
+
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 1.25dppx) {
+    .icheckbox_minimal,
+    .iradio_minimal {
+        background-image: url(../img/minimal@2x.png);
+        -webkit-background-size: 200px 20px;
+        background-size: 200px 20px;
+    }
+}
+
+
+/*=====  End of iCheckbox Plugin  ======*/
+
+
+
+
+
+/*==================================================
+=            Custom Select Box CSS ONLY            =
+==================================================*/
+p.anchor-nav-descr {
+    margin-left: 0.25em;
+    text-transform: lowercase;
+}
+.anchor-menu {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2em;
+    border: 1px solid rgba($primary-color,0.7);
+    width: 100%;
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 3px;
+    overflow: hidden;
+    background-color: $white;
+
+    background: $white url(../img/nextPageArrow.gif) no-repeat 90% 50%;
+}
+
+.anchor-menu select {
+    padding: 1em 0.5em;
+    font-weight: 900;
+    color: $primary-color;
+    width: 100%;
+    border: none;
+    -webkit-box-shadow: none;
+       -moz-box-shadow: none;
+            box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+}
+
+.anchor-menu select:focus {
+    outline: none;
+}
+
+/*=====  End of Custom Select Box CSS ONLY  ======*/

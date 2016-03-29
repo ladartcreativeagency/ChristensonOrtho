@@ -1,0 +1,134 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass mixins.
+// -----------------------------------------------------------------------------
+
+
+
+/*======================================================
+=            Desktop First Breakpoint Mixin            =
+======================================================*/
+
+$small-break: 480px !default;
+$medium-break: 1024px !default;
+
+@mixin small() {
+  @media screen and (max-width: $small-break) {
+    @content;
+  }
+}
+
+@mixin medium() {
+  @media screen and (max-width: $medium-break) {
+    @content;
+  }
+}
+
+@mixin large() {
+  @media screen and (min-width: $small-break) {
+    @content;
+  }
+}
+
+
+/*=====  End of Desktop First Breakpoint Mixin  ======*/
+
+
+
+
+
+
+/// Event wrapper
+/// @author Harry Roberts
+/// @param {Bool} $self [false] - Whether or not to include current selector
+/// @link https://twitter.com/csswizardry/status/478938530342006784 Original tweet from Harry Roberts
+@mixin on-event($self: false) {
+  @if $self {
+    &,
+    &:hover,
+    &:active,
+    &:focus {
+      @content;
+    }
+  } @else {
+    &:hover,
+    &:active,
+    &:focus {
+      @content;
+    }
+  }
+}
+
+/// Make a context based selector a little more friendly
+/// @author Hugo Giraudel
+/// @param {String} $context
+@mixin when-inside($context) {
+  #{$context} & {
+    @content;
+  }
+}
+
+/// Responsive manager
+/// @param {String} $breakpoint - Breakpoint
+/// @requires $breakpoints
+/// @link http://sass-guidelin.es/#breakpoint-manager Sass Guidelines - Breakpoint Manager
+@mixin respond-to($breakpoint) {
+  $query: map-get($breakpoints, $breakpoint);
+
+  @if not $query {
+    @error 'No value found for `#{$breakpoint}`. Please make sure it is defined in `$breakpoints` map.';
+  }
+
+  @media #{if(type-of($query) == 'string', unquote($query), inspect($query))} {
+    @content;
+  }
+}
+
+/// Gradient App copy and paste mixin for gradients
+/// @author Gradient App
+/// Prefixes definition
+$webkit:true;
+$o:true;
+$moz:true;
+$w3:true;
+$ms:true;
+
+/// Gradient Mixin
+@mixin gradient($mode,$direction,$from,$to,$oldDirection:null){
+
+    @if $webkit == true {
+        @if($oldDirection != null){
+            background-image: -webkit-gradient($mode, #{$oldDirection}, from($from),to($to));
+        }
+        background-image: -webkit-#{$mode}-gradient($direction, $from, $to);
+    }
+    @if $moz == true {
+        background-image: -moz-#{$mode}-gradient($direction, $from, $to);
+    }
+    @if $o == true {
+        background-image: -o-#{$mode}-gradient($direction, $from, $to);
+    }
+    @if $ms == true {
+        background-image: -ms-#{$mode}-gradient($direction, $from, $to);
+    }
+    @if $w3 == true {
+        background-image: #{$mode}-gradient($direction, $from, $to);
+    }
+}
+
+
+/// Cross browser inline-block
+/// @author Nick LaDart
+/// IMPORTANT NOTES::
+/// May require the folowing additional styles to fully work cross-browser (IE6-7)
+/// min-height: 250px;
+/// _height: 250px;
+/// a <div> may need to be wrapped around the contents of a <li> element to display correctly in FireFox
+/// for example:  <li> <div> ... </div> </li>
+@mixin inline-block {
+  display: -moz-inline-stack; // ff 2
+  display: inline-block;
+  vertical-align: top;
+  zoom:1;
+  *display: inline;
+  // _height: 15px; // ie 6-7
+}

@@ -1,0 +1,180 @@
+/**
+ * Basic typography style for copy text
+ */
+
+mark {
+  background: rgba(#fff57d,0.6);
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+}
+
+  h1 {
+
+  }
+
+  h2, h3, h4, h5, h6 {
+
+  }
+
+  h3, h4, h5, h6 {
+    color: $monsoon;
+  }
+
+  h3 {
+    //color: rgba($primary-color,0.7);
+    margin-top: 2em;
+    letter-spacing: -0.03em;
+  }
+
+  h4 {
+    // border-bottom: 2px solid rgba($primary-color,0.3);
+    margin-top: 2em;
+    margin-bottom: 1em;
+    display: inline-block;
+  }
+
+
+  blockquote {
+
+  }
+
+  ul, ol {
+
+  }
+
+  p {
+
+  }
+
+  .strong {
+    font-weight: 700;
+  }
+
+  a.text-link {
+    border-bottom: 1px solid $secondary-color;
+    color: $secondary-color;
+    font-weight: 700;
+  }
+
+  span.separator-bar {
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+  }
+
+ul.anchor-menu-list {
+  list-style: none;
+  margin-left: 2em;
+  font-size: 0.875em;
+  li {
+    margin-bottom: 1em;
+
+    a {
+      color: $primary-color !important;
+    }
+
+    &:last-child {
+      margin-bottom: 0em;
+    }
+  }
+  li:before {
+    content: " \f0da ";
+    font-family: "Fontawesome";
+    display: inline-block;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    margin-left: -1.975em;
+    color: $primary-color;
+    text-align: center;
+    margin-right: 0.5em;
+    vertical-align: text-top;
+  }
+}
+
+ ul.hyphen-list {
+  list-style: none;
+  margin-left: 2em;
+  font-size: 1.15em;
+  font-weight: 300;
+
+  li {
+    margin-bottom: 1em;
+
+    &:last-child {
+      margin-bottom: 0em;
+    }
+  }
+  li:before {
+    content: " - ";
+    display: inline-block;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    margin-left: -1.975em;
+    border: 1px solid;
+    border-color: $gainsboro;
+    text-align: center;
+    margin-right: 0.5em;
+    //vertical-align: text-top;
+    font-weight: 900;
+    line-height: inherit;
+    font-family: "Source Sans Pro";
+    color: $primary-color;
+  }
+ }
+/*=============================================
+=            Comma Separated Lists            =
+=============================================*/
+/**
+ *
+ * Turns <ul> list items into comma separated list
+ *
+ */
+
+ul.comma-separated {
+  list-style: none;
+  li {
+    display: inline-block;
+  }
+  li:not(:last-child)::after {
+    content: ",";
+  }
+}
+
+/*=====  End of Comma Separated Lists  ======*/
+
+
+
+hr.section-break {
+  margin-top: 4em;
+  margin-bottom: 4em;
+  height: 6px;
+  background: url(../img/hr-zigzag.png) repeat-x 0 0;
+  border: 0;
+}
+
+
+/*======================================
+=            Heading Labels            =
+======================================*/
+/**
+ *
+ * Header Label Vars
+ *
+ */
+
+$header-label-letter-spacing: -0.05em;
+$header-label-font: $primary-sans-font;
+$header-label-font-size: 50%;
+$header-label-font-style: uppercase;
+
+
+span.header-label {
+  display: block;
+  line-height: inherit;
+  font-size: $header-label-font-size;
+  text-transform: $header-label-font-style;
+  font-family: $header-label-font;
+  font-weight: $body-font-weight;
+  letter-spacing: $header-label-letter-spacing;
+  color: lighten($header-font-color,20%);
+}
+/*=====  End of Heading Labels  ======*/

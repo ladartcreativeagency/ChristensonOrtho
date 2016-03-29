@@ -1,0 +1,86 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass extends.
+// -----------------------------------------------------------------------------
+
+
+/**
+*
+* Cross Browser Background-Size with Polyfill
+*
+**/
+%bgSizeCover {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    /* The url is relative to the document, not to the css file! */
+    /* Prefer absolute urls to avoid confusion. */
+    -ms-behavior: url(backgroundsize.min.htc);
+}
+
+%bgSizeContain {
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+    /* The url is relative to the document, not to the css file! */
+    /* Prefer absolute urls to avoid confusion. */
+    -ms-behavior: url(backgroundsize.min.htc);
+}
+
+/**
+*
+* Cross Browser inline block
+*
+**/
+%inlineBlock {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+  // may need to include a height declaration for some situations
+  // _height: 250px;
+}
+
+/**
+*
+* Transitions
+*
+**/
+%transitionAll3 {
+  transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+}
+%transitionAll5 {
+  transition: all 0.5s ease-in;
+	-webkit-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	-ms-transition: all 0.5s ease-in;
+}
+
+/**
+*
+* Alignment
+*
+**/
+/// USE IF PARENT HAS ABSOLUTE HEIGHT
+%is-vertical-aligned {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	        transform: translateY(-50%);
+}
+/// USE IF PARENT HAS A MIN-HEIGHT and NOT AN ABSOLUTE HEIGHT
+%is-abs-vertical-aligned {
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	        transform: translateY(-50%);
+}

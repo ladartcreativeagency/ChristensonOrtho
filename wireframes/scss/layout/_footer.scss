@@ -1,0 +1,28 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+
+footer.page-footer {
+	background: $primary-color;
+	color: $white;
+	padding: 1em 0em;
+	margin-top: 1.2em;
+
+	p {
+	margin-bottom: 0em;
+	}
+}
+
+ul.utility-nav {
+  list-style: none;
+  margin-bottom: 0em;
+  li {
+    @extend %inlineBlock;
+
+    a {
+	color: $white;
+	font-size: 0.875em;
+	padding: 0.5em;
+    }
+  }
+}

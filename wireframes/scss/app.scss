@@ -1,0 +1,147 @@
+/*==========  MAKE SURE THE CHARSET IS SET APPROPRIATELY  ==========*/
+@charset "UTF-8";
+
+// HEADINGS
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+// font-family: 'Montserrat', sans-serif;
+// $primary-sans-font
+
+// BODY COPY
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,400italic,600,700,900);
+// font-family: 'Source Sans Pro', sans-serif;
+// $secondary-sans-font
+
+/*-----  End of FONTS IMPORT  ------*/
+
+/*==========  FOUNDATION NORMALIZE  ==========*/
+@import "vendor/normalize";
+
+/*===========================================
+=            FOUNDATION PARTIALS            =
+===========================================*/
+/*==========  EDIT VARS IN THIS FILE  ==========*/
+@import "vendor/foundation/variables";
+/*==========  EDIT VARS IN THIS FILE  ==========*/
+@import
+  "vendor/foundation/components/global",
+  "vendor/foundation/components/grid",
+  "vendor/foundation/components/visibility",
+  "vendor/foundation/components/block-grid",
+  "vendor/foundation/components/type",
+  "vendor/foundation/components/buttons",
+  "vendor/foundation/components/forms",
+  "vendor/foundation/components/button-groups",
+  "vendor/foundation/components/dropdown-buttons",
+  "vendor/foundation/components/split-buttons",
+  "vendor/foundation/components/flex-video",
+  "vendor/foundation/components/section",
+  "vendor/foundation/components/top-bar",
+  "vendor/foundation/components/orbit",
+  "vendor/foundation/components/reveal",
+  "vendor/foundation/components/joyride",
+  "vendor/foundation/components/clearing",
+  "vendor/foundation/components/alert-boxes",
+  "vendor/foundation/components/breadcrumbs",
+  "vendor/foundation/components/custom-forms",
+  "vendor/foundation/components/keystrokes",
+  "vendor/foundation/components/labels",
+  "vendor/foundation/components/inline-lists",
+  "vendor/foundation/components/pagination",
+  "vendor/foundation/components/panels",
+  "vendor/foundation/components/pricing-tables",
+  "vendor/foundation/components/progress-bars",
+  "vendor/foundation/components/side-nav",
+  "vendor/foundation/components/sub-nav",
+  "vendor/foundation/components/switch",
+  "vendor/foundation/components/magellan",
+  "vendor/foundation/components/tables",
+  "vendor/foundation/components/thumbs",
+  "vendor/foundation/components/tooltips",
+  "vendor/foundation/components/dropdown";
+/*==========  THIS ADDS MEDIUM GRID SUPPORT FOR FOUNDATION 4.3.2  ==========*/
+@import "vendor/foundation/components/grid-5";
+/*-----  End of FOUNDATION PARTIALS  ------*/
+
+
+
+/*=========================================
+=            FONT ICONS STACKS            =
+=========================================*/
+@import
+  "vendor/fontawesome/variables",
+  "vendor/fontawesome/mixins",
+  "vendor/fontawesome/extras",
+  "vendor/fontawesome/icons",
+  "vendor/fontawesome/stacked",
+  "vendor/fontawesome/core",
+  "vendor/fontawesome/animated",
+  "vendor/fontawesome/bordered-pulled",
+  "vendor/fontawesome/fixed-width",
+  "vendor/fontawesome/list",
+  "vendor/fontawesome/path",
+  "vendor/fontawesome/larger",
+  "vendor/fontawesome/rotated-flipped";
+/*-----  End of FONT ICONS STACKS  ------*/
+
+
+
+
+
+/*=================================
+=            UTILITIES            =
+=================================*/
+@import "utils/variables",
+        "utils/functions",
+        "utils/mixins",
+        "utils/extends",
+        "utils/whitespace",
+        "utils/flexbox",
+        "utils/text-alignment-helpers";
+/*-----  End of UTILITIES  ------*/
+
+
+
+/*=====================================
+=            BASE SETTINGS            =
+=====================================*/
+@import "base/browser-hacks",
+        "base/base",
+        "base/fonts",
+        "base/helpers",
+        "base/typography";
+/*-----  End of BASE SETTINGS  ------*/
+
+
+/*==================================
+=            COMPONENTS            =
+==================================*/
+@import "components/page-loading-indicator",
+        "components/buttons",
+        "components/forms/forms",
+        "components/modals",
+        "components/tabs",
+        "components/accordions",
+        "components/slimmenu";
+/*-----  End of COMPONENTS  ------*/
+
+
+/*==============================
+=            LAYOUT            =
+==============================*/
+@import "layout/header",
+        "layout/footer";
+/*-----  End of LAYOUT  ------*/
+
+
+/*====================================
+=            THEME STYLES            =
+====================================*/
+@import "themes/default";
+/*-----  End of THEME STYLES  ------*/
+
+
+/*===================================
+=            PAGE STYLES            =
+===================================*/
+@import "pages/home";
+/*-----  End of PAGE STYLES  ------*/

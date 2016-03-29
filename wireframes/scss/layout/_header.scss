@@ -1,0 +1,40 @@
+// -----------------------------------------------------------------------------
+//  all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+
+
+header.page-header {
+	  position:relative;
+    width: 100%;
+
+		padding: 0em 0em 0em 0em;
+
+  box-shadow: 0px 4px 7px rgba($black,0.2);
+ //  background: url(../img/patients-collage-wide.jpg) top center no-repeat;
+
+	// -webkit-background-size: cover;
+	// -moz-background-size: cover;
+	// -o-background-size: cover;
+	// background-size: cover;
+
+
+}
+
+.top-hat {
+	background: darken($primary-color, 7%);
+	padding: 0.25em 0em;
+	font-size: 0.875em;
+	color: $white;
+	a {
+		color: $white;
+	}
+	p, ul {
+		margin-bottom: 0em;
+	}
+}
+
+
+.home-hero {
+	background: url(../img/patients-collage.jpg) top center;
+	@extend %bgSizeCover;
+}

@@ -1,0 +1,22 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+
+.panel.testingVertCenter {
+  text-align: center;
+  position: relative;
+  min-height: 650px;
+  padding: 0em;
+}
+
+.vert-horiz-center-block {
+	@extend %is-abs-vertical-aligned;
+	h2 { margin: 0em; padding: 0em 2em; }
+}
+
+
+span.small {
+	font-size: 50%;
+	margin-top: -0.5em;
+	display: block;
+}

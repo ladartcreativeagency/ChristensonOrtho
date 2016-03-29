@@ -1,0 +1,32 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+
+
+a.linkIndicatorBtn {
+	@include button-base;
+  @include button-size($button-sml, false, false);
+  margin: 0em auto;
+  color: $primary-color;
+  border: 2px solid $primary-color;
+}
+
+svg.linkIndicatorWhite {
+  display: inline-block;
+  margin-left: 1em;
+  position: relative;
+  overflow: visible;
+
+ .circWhite{
+	 fill: none;
+	 stroke: $primary-color;
+	 stroke-width: 0.9231;
+	 stroke-miterlimit: 10;
+   position: absolute;
+ }
+
+ .dotWhite{
+	 fill: $primary-color;
+   position: absolute;
+	}
+}
