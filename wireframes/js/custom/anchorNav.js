@@ -25,7 +25,13 @@ function anchorNav() {
 		$(this).toggleClass('menu-is-open');
 		//we need to remove the transitionEnd event handler (we add it when scolling up with the menu open)
 		mainNavigation.off('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend').toggleClass('is-visible');
+	});
 
+	//open or close the menu after clicking anchor link
+	$('#cd-main-nav ul li a').on('click', function(){
+		$('.cd-nav-trigger').toggleClass('menu-is-open');
+		//we need to remove the transitionEnd event handler (we add it when scolling up with the menu open)
+		mainNavigation.off('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend').toggleClass('is-visible');
 	});
 
 	function checkMenu() {
@@ -57,6 +63,14 @@ function anchorNav() {
 	}
 
 
+	// function closeWhenAnchorClicked() {
+	// 	$("a.cd-nav-trigger").click(function(){
+ //    	$("a.cd-nav-trigger").removeClass("menu-is-open");
+	// 	});
+	// 	$("button").click(function(){
+ //    	$("p").removeClass("intro");
+	// 	});
+	// }
 
 
 } // end anchorNav();
