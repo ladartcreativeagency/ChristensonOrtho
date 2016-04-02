@@ -4,9 +4,9 @@
 
  [ - ] Vector graphics of logos/badges for any membership associations
 
- [ - ] Consistent profile images of team
+ [ - ] Consistent profile images of team - every team member on white background (incl. Brad).  One shot of Brad at desk with books behind.
 
- [ - ] "Action" shots of patients being worked on by staff
+ [ - ] "Action" shots of patients being worked on by staff - someone getting braces adjusted, x-rayed, checking out at counter, being advised.  All with happy faces.  
 
  [ - ] Patient "checking out" at front desk
 
