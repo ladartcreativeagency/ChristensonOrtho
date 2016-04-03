@@ -123,6 +123,43 @@ ul.anchor-menu-list {
     color: $primary-color;
   }
  }
+
+
+
+ ul.small-hyphen-list {
+  list-style: none;
+  margin-left: 2em;
+  font-size: 0.875em;
+  font-weight: 300;
+
+  li {
+    margin-bottom: 0.5em;
+
+    strong {
+      color: lighten($header-font-color,20%);
+    }
+
+    &:last-child {
+      margin-bottom: 0em;
+    }
+  }
+  li:before {
+    content: " - ";
+    display: inline-block;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    margin-left: -1.975em;
+    border: 1px solid;
+    border-color: $gainsboro;
+    text-align: center;
+    margin-right: 0.5em;
+    //vertical-align: text-top;
+    font-weight: 900;
+    line-height: inherit;
+    font-family: "Source Sans Pro";
+    color: $primary-color;
+  }
+ }
 /*=============================================
 =            Comma Separated Lists            =
 =============================================*/
@@ -188,6 +225,6 @@ span.header-label {
   font-family: $header-label-font;
   font-weight: $body-font-weight;
   letter-spacing: $header-label-letter-spacing;
-  color: lighten($header-font-color,20%);
+  color: $main-gray;
 }
 /*=====  End of Heading Labels  ======*/
