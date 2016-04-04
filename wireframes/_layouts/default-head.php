@@ -54,14 +54,26 @@
   </div>
   <![endif]-->
 
-
+            <div class="modal modal-medium" data-modal-window id="patient-downloads">
+                <a class="close" style="font-size: 0.875em; color: #a2a2a2;" data-modal-close>close window</a>
+                <h3>New Patient Downloads</h3>
+                <p class="lead">For your convienence...</p>
+                <ul class="no-bullet" style="margin-left:1.35em;">
+                  <li><i class="fa fa-file-pdf-o fa-2x muted"></i>  <a href="patientdocs/Health_History.pdf">Health History</a> <span class="label secondary radius">556 KB</span> </li>
+                  <li><i class="fa fa-file-pdf-o fa-2x muted"></i> <a href="patientdocs/new_patient_information.pdf">New Patient Information</a> <span class="label secondary radius">693 KB</span> </li>
+                  <li><i class="fa fa-file-zip-o fa-2x muted"></i> <a href="patientdocs/ChristensonOrthodonticsForms.zip">Download All Forms</a>  <span class="label secondary radius">1.1 MB</span> </li>
+                </ul>
+               <!--  <div class="text-right"> 
+                  <button class="tiny button" data-modal-close>Close</button>
+                </div> -->
+            </div>
 
 
     <div class="top-hat">
         <div class="row">
             <div class="large-6 medium-6 small-12 columns">
                 <p class="large-text-left medium-text-left small-text-center">
-                    <a class="modal-link" href="contact.php#great-bridge">Great Bridge Office</a>  <span class="separator-bar">|</span>  <a class="modal-link" href="contact.php#deep-creek">Deep Creek Office</a>
+                    <a class="modal-link" href="contact.php#great-bridge">Our Offices</a>  <span class="separator-bar">|</span>  <a class="modal-link" data-modal="#patient-downloads">New Patient Forms</a>
                 </p>
             </div>
             <div class="large-6 medium-6 small-12 columns">

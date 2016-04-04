@@ -125,7 +125,26 @@ $close-btn-color: $primary-color;
     }
   }
 
+  .modal h3 {
+    margin-top: 0em;
+  }
 
+  .modal ul.no-bullet {
+    margin-left: 1.35em;
+    li {
+      margin: 1em 0em auto;
+      
+      i.muted {
+        color: $main-gray;
+      }
+      
+      a {
+        font-weight: 700;
+        color: $main-green;
+        font-size: 1.15em;
+      }
+    }
+  }
 /*=====  End of Modal Customizations  ======*/
 
 
