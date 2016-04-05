@@ -19,7 +19,8 @@ $metadescription = "";
 <main id="main-content">
   <div class="row">
     <div class="large-11 large-centered medium-11 medium-centered small-12 columns">
-
+	<section id="photos">
+		
 <img src="img/patients-cropped/Untitled1_0000_gimg10.jpg.jpg" class="patient-photo" alt="patient results photo">
 <img src="img/patients-cropped/Untitled1_0001_gimg11.jpg.jpg" class="patient-photo" alt="patient results photo">
 <img src="img/patients-cropped/Untitled1_0002_gimg2.jpg.jpg" class="patient-photo" alt="patient results photo">
@@ -37,6 +38,7 @@ $metadescription = "";
 <img src="img/patients-cropped/Untitled1_0014_gimg8.jpg.jpg" class="patient-photo" alt="patient results photo">
 <img src="img/patients-cropped/Untitled1_0015_gimg9.jpg.jpg" class="patient-photo" alt="patient results photo">					
 
+	</section>
     </div>
   </div>
 </main><!-- /container -->
