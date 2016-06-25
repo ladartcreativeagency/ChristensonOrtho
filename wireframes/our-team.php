@@ -19,10 +19,11 @@ $metadescription = "";
 
 <div class="row collapse">
 	<div class="large-12 medium-12 small-12 columns">
-		<img src="img/group-team-photo.jpg" class="aligncenter add-bottom" alt="Christenson Orthodontics Staff">
+		<img src="img/teamPhotoNew.jpg" class="aligncenter add-bottom" alt="Christenson Orthodontics Staff">
 	</div>
 </div>
 
+<hr class="section-break">
 
 <div class="row">
 	<div class="large-11 large-centered medium-11 medium-centered small-12 columns">
@@ -35,8 +36,8 @@ $metadescription = "";
 
 					<h2>Dr. Christenson<span class="header-label">Orthodontist</span></h2>
 					<ul class="small-hyphen-list">
-						<li><strong>Favorite Activity:</strong><br>Watching my grandchildren play, sitting on the porch with my wife reading Newsweek, and cheering for the Tennessee Volunteers and Green Bay Packers.</li>
-						<li><strong>Fun Facts:</strong><br>  As an Air Force officer I was able to travel the world with my family, I paid for a year of my undergraduate degree by selling fake IDs, I was recently featured on an episode of &quot;FantomWorks&quot;.</li>
+						<li><strong>Favorite Activity:</strong><br>Watching my grandchildren play, sitting on the back porch with my wife, and cheering for the Tennessee Volunteers and Green Bay Packers.</li>
+						<li><strong>Fun Facts:</strong><br>As an Air Force officer I was able to travel the world with my family, and I was recently featured on an episode of &quot;FantomWorks&quot; with my father's 1967 Mustang.</li>
 					</ul>
 				</div>
 			</div>
@@ -51,7 +52,7 @@ $metadescription = "";
 	<div class="large-11 large-centered medium-11 medium-centered small-12 columns">
 		<div class="row">
 			<div class="large-4 medium-4 small-12 columns">
-				<img src="img/tracy-profile.jpg" class="profile-img" alt="Tracy">
+				<img src="img/tracya-profile.jpg" class="profile-img" alt="Tracy">
 			</div>
 			<div class="large-8 medium-8 small-12 columns">
 				<h2>Tracy<span class="header-label">Lab Technician</span></h2>
@@ -101,7 +102,7 @@ $metadescription = "";
 		<div class="row">
 			<div class="large-4 medium-4 small-12 columns">
 
-		<img src="img/jennie-profile.jpg" class="profile-img" alt="Jennie">
+		<img src="img/jennifers-profile.jpg" class="profile-img" alt="Jennifer">
 	
 			</div>
 			<div class="large-8 medium-8 small-12 columns">
@@ -126,7 +127,7 @@ $metadescription = "";
 		<div class="row">
 			<div class="large-4 medium-4 small-12 columns">
 
-		<img src="img/jen-c-profile.jpg" class="profile-img" alt="Jen">
+		<img src="img/jens-profile.jpg" class="profile-img" alt="Jen">
 	
 			</div>
 			<div class="large-8 medium-8 small-12 columns">
@@ -154,7 +155,7 @@ $metadescription = "";
 		<div class="row">
 			<div class="large-4 medium-4 small-12 columns">
 
-		<img src="img/whit-profile.jpg" class="profile-img" alt="Whitney">
+		<img src="img/whitneyh-profile.jpg" class="profile-img" alt="Whitney">
 			</div>
 			<div class="large-8 medium-8 small-12 columns">
 
@@ -210,11 +211,11 @@ $metadescription = "";
 
 		<div class="row">
 			<div class="large-4 medium-4 small-12 columns">
-				<img src="img/abbey-profile.jpg" class="profile-img" alt="Abbey">
+				<img src="img/carolined-profile.jpg" class="profile-img" alt="Caroline">
 			</div>
 			<div class="large-8 medium-8 small-12 columns">
 
-		<h2>Erin<span class="header-label">Orthodontic Technician</span></h2>
+		<h2>Caroline<span class="header-label">Orthodontic Technician</span></h2>
 		<ul class="small-hyphen-list">
 			<li><strong>Favorite Activity:</strong><br>Spending time with my son, reading, museums, summer concerts and surfing.</li>
 			<li><strong>Favorite Foods:</strong><br>  Jelly Belly jelly beans and tacos</li>

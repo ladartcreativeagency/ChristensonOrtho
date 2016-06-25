@@ -31,8 +31,7 @@ $metadescription = "";
           <p>He is dedicated to creating beautiful smiles, using the latest technology, providing our patients with the highest quality of care in a gentle, comfortable, and professional environment.</p> 
             </div>
 
-            <div class="large-3 medium-3 small-12 columns">
-
+            <div class="large-3 medium-3 small-12 columns"> 
               <strong>Member of:</strong>
               <ul class="square" style="margin-left: 1.35em; font-size: 0.875em;">
               <li>Diplomate American Board of Orthodontists</li>
@@ -45,12 +44,12 @@ $metadescription = "";
             </div>
           </div>
 
-            <ul class="large-block-grid-4 small-block-grid-2"> 
+          <!--   <ul class="large-block-grid-4 small-block-grid-2"> 
               <li><img src="img/aao-logo.png" class="aligncenter" alt=""></li>
               <li><img src="img/ABoOlogo230x115.png" class="aligncenter" alt=""></li>
               <li><img src="img/ABoOdiplomatlogo230x60.png" class="aligncenter" alt=""></li>
               <li><img src="img/AAoOlogo230x75.png" class="aligncenter" alt=""></li>
-            </ul>
+            </ul> -->
         </div>
       </div>
     </div>
@@ -72,36 +71,11 @@ $metadescription = "";
     </div>
   </div>
 
-
-<section id="photos">
-    
-<img src="img/patients-cropped/Untitled1_0000_gimg10.jpg.jpg" class="patient-photo" alt="patient results photo">
-<img src="img/patients-cropped/Untitled1_0001_gimg11.jpg.jpg" class="patient-photo" alt="patient results photo">
-<img src="img/patients-cropped/Untitled1_0002_gimg2.jpg.jpg" class="patient-photo" alt="patient results photo">
-<img src="img/patients-cropped/Untitled1_0003_gimg26.jpg.jpg" class="patient-photo" alt="patient results photo">
-<img src="img/patients-cropped/Untitled1_0004_gimg27.jpg.jpg" class="patient-photo" alt="patient results photo">
-<img src="img/patients-cropped/Untitled1_0005_gimg28.jpg.jpg" class="patient-photo" alt="patient results photo">
-<img src="img/patients-cropped/Untitled1_0006_gimg29.jpg.jpg" class="patient-photo" alt="patient results photo">
-<img src="img/patients-cropped/Untitled1_0007_gimg3.jpg.jpg" class="patient-photo" alt="patient results photo">
-<img src="img/patients-cropped/Untitled1_0008_gimg30.jpg.jpg" class="patient-photo" alt="patient results photo">
-<img src="img/patients-cropped/Untitled1_0009_gimg31.jpg.jpg" class="patient-photo" alt="patient results photo">
-<img src="img/patients-cropped/Untitled1_0010_gimg4.jpg.jpg" class="patient-photo" alt="patient results photo">
-<img src="img/patients-cropped/Untitled1_0011_gimg5.jpg.jpg" class="patient-photo" alt="patient results photo">
-<img src="img/patients-cropped/Untitled1_0012_gimg6.jpg.jpg" class="patient-photo" alt="patient results photo">
-<img src="img/patients-cropped/Untitled1_0013_gimg7.jpg.jpg" class="patient-photo" alt="patient results photo">
-<img src="img/patients-cropped/Untitled1_0014_gimg8.jpg.jpg" class="patient-photo" alt="patient results photo">
-<img src="img/patients-cropped/Untitled1_0015_gimg9.jpg.jpg" class="patient-photo" alt="patient results photo">         
-
-  </section>
+ 
 
 <article class="prefooter-ctas">
 	<div class="row">
-		<div class="large-6 medium-6 small-12 columns">
-
-			<?php include("_includes/newsletter-cta.php"); ?>
-		</div>
-		<div class="large-6 medium-6 small-12 columns">
-
+		<div class="large-6 large-centered medium-6 medium-centered small-12 columns"> 
 			<?php include("_includes/social-links.php"); ?>
 		</div>
 	</div>

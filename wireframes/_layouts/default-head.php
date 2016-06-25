@@ -67,8 +67,7 @@
                   <button class="tiny button" data-modal-close>Close</button>
                 </div> -->
             </div>
-
-
+ 
     <div class="top-hat">
         <div class="row">
             <div class="large-6 medium-6 small-12 columns">

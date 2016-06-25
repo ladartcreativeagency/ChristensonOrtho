@@ -23,7 +23,7 @@ jQuery(document).ready(function($) {
 		svgeezy.init(false, 'png'); // don't forget to generate pngs from svgs for production
 
       webformEnhancements();
-		mainNav();
+			mainNav();
 
       modals.init({
 				modalActiveClass: 'active',
@@ -42,10 +42,11 @@ jQuery(document).ready(function($) {
 			    initClass: 'js-tabby', // Class added to <html> element when initiated
 			    callback: function ( toggle, tabID ) {} // Function that's run after tab content is toggled
 			});
-						anchorNav();
+			
+			anchorNav();
       exampleScript();
       injectSVG();
-						linkIndicatorBtnAnim();
+			linkIndicatorBtnAnim();
   }
 
   //@codekit-append "webformEnhancements";

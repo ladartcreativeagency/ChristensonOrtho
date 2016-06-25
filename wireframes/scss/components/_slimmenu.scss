@@ -159,7 +159,7 @@ ul.slimmenu {
       -webkit-transition: background-color 0.5s ease-out;
       position: relative;
       text-transform: uppercase;
-
+      
       &:hover {
         text-decoration: none;
         // background-color: rgba($black,0.15);
@@ -170,7 +170,7 @@ ul.slimmenu {
         background: $primary-color;
         width: 100%;
         position: absolute;
-        bottom: -2px;
+        bottom: 0px;
         height: 3px;
         left: 0;
         }

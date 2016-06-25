@@ -7,52 +7,69 @@
  * NEVER apply position: relative; to root elements
  * More info at http://phrogz.net/css/htmlvsbody.html
  */
-html,
+html, 
 body {
 	height: 100%;
 }
 
+body {
+	background: #e7e1d7;
+}
 
 
 .ribbon {
     width: 100%;
-    height: 62vh; //40
-    background-color: $primary-color; //rgba($sand,0.4)
+    height: 70vh; //40
+    background-color: rgba($sand,0.4);
     -webkit-flex-shrink: 0;
     -ms-flex-negative: 0;
     flex-shrink: 0;
     padding-top: 2em;
-		//position: relative;
+		position: relative;
+		z-index: -1;
 
     h1 {
-	text-transform: uppercase;
-	letter-spacing: -0.04em;
-	text-shadow: 0px 0px 3px rgba($white, 0.28);
-    // background: rgba($sand,1.0);//0.87
+    	text-transform: uppercase;
+    	letter-spacing: -0.04em; 
+    background: rgba($primary-color,0.87);
     display: inline-block;
-    padding: 0.5em 1em;
+    padding: 1em;
     max-width: 70%;
-    color: #00362f;
+    color: #fff;
     margin-bottom: 1em;
 		position: relative;
-	font-weight: 400;
-	&:before {
+    	&:before {
 		    content: "";
-		    // background: rgba($sand,1.0);
+		    background: $primary-color;
 		    width: 100%;
 		    position: absolute;
 		    height: 100%;
 		    top: 0;
 		    left: -100%;
-		    border-bottom: 6px solid #00362f;
 			}
     }
 }
 
+@media (max-width: 480px) {
 
-body.home main#main-content {
-	margin-top: -53vh;
+	.ribbon {
+		height: 80vh;
+		overflow: hidden;
+
+		h1 {
+    	max-width: 99%;
+    	padding: 1em 1em 1em 0.25em;
+    	word-wrap: break-word;
+		}
+	}
+
+	main#main-content {
+		box-shadow: 0px 0px 8px rgba($black,0);
+	}
 }
+
+
+
 
 
 main#main-content {
@@ -64,7 +81,7 @@ main#main-content {
 	max-width: 71.25em;
 	background: $white;
 	box-shadow: 0px 0px 8px rgba($black,0.2);
-
+	
 	h4 a {
 		color: $link-color;
 		@extend %transitionAll3;
@@ -75,18 +92,11 @@ main#main-content {
 		}
 	}
 
-	p > a,
-	p > small > a,
-	// ul > li > a,
-	ul li small a,
-	h3 > a,
-	h4 > a,
-	h5 > a {
+	a {
 		color: $link-color;
 		@extend %transitionAll3;
 		border-bottom: none !important;
 		text-decoration: underline;
-		font-weight: 700;
 		&:hover {
 			color: rgba($link-color,0.8);
 		}
@@ -97,46 +107,12 @@ main#main-content {
 
 
 
-@media (max-width: 480px) {
-
-	.ribbon {
-		height: 80vh;
-		overflow: hidden;
-
-		h1 {
-	max-width: 99%;
-	padding: 1em 0.5em 1em 0.25em;
-	word-wrap: break-word;
-		}
-	}
-}
-
-
-
-@media (max-width: 1150px) {
-
-	main#main-content {
-		max-width: 96%;
-	}
-}
-
-
-
-
-
-
-
-
 
 .panel {
 	background: $white;
-	border-color: $gainsboro;
-	//box-shadow: 0px 0px 6px rgba($black,0.2);
+	border-color: $smoke;
+	box-shadow: 0px 0px 6px rgba($black,0.2);
 }
-
-
-
-
 
 
 
@@ -174,3 +150,24 @@ table caption {
   padding-left: 0.5em;
 }
 /*=====  End of Tables  ======*/
+
+
+
+// 	p > a,
+// 	p > small > a,
+// 	// ul > li > a,
+// 	ul li small a,
+// 	h3 > a,
+// 	h4 > a,
+// 	h5 > a {
+// 		color: $link-color;
+// 		@extend %transitionAll3;
+// 		border-bottom: none !important;
+// 		text-decoration: underline;
+// 		font-weight: 700;
+// 		&:hover {
+// 			color: rgba($link-color,0.8);
+// 		}
+// 	}
+// }
+
