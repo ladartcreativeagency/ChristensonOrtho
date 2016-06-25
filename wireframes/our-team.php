@@ -36,7 +36,7 @@ $metadescription = "";
 
 					<h2>Dr. Christenson<span class="header-label">Orthodontist</span></h2>
 					<ul class="small-hyphen-list">
-						<li><strong>Favorite Activity:</strong><br>Watching my grandchildren play, sitting on the back porch with my wife, and cheering for the Tennessee Volunteers and Green Bay Packers.</li>
+						<li><strong>Favorite Activity:</strong><br>Watching my grandchildren play, sitting on the back porch with my wife, and cheering for the Tennessee Volunteers, Atlanta Braves, and Green Bay Packers.</li>
 						<li><strong>Fun Facts:</strong><br>As an Air Force officer I was able to travel the world with my family, and I was recently featured on an episode of &quot;FantomWorks&quot; with my father's 1967 Mustang.</li>
 					</ul>
 				</div>
@@ -82,7 +82,7 @@ $metadescription = "";
 			<div class="large-8 medium-8 small-12 columns">
 				<h2>Kelli<span class="header-label">Orthodontic Technician &amp; Purchasing</span></h2>
 				<ul class="small-hyphen-list">
-					<li><strong>Favorite Activity:</strong><br>Watching my son’s band play, spending time with my twin grandsons, reading, sports and traveling.</li>
+					<li><strong>Favorite Activity:</strong><br>Watching my son’s band play, spending time with my twin grandsons, reading, sports, and traveling.</li>
 					<li><strong>Fun Facts:</strong><br>  I have been doing orthodontics since 1993. I am a die-hard Cubs fan, we have 4 rescue cats and a rescue dog. One of my bathrooms is dedicated to my love of Star Wars. </li>
 					<li><strong>Credentials &amp; Associations:</strong><br>CPR certified, XRAY certified, Invisalign training certified</li>
 				</ul>
@@ -108,9 +108,9 @@ $metadescription = "";
 			<div class="large-8 medium-8 small-12 columns">
 	<h2>Jennifer<span class="header-label">Financial &amp; Treatment Coordinator</span></h2>
 		<ul class="small-hyphen-list">
-			<li><strong>Favorite Activity:</strong><br>Spending time with family and friends, tailgating for Virginia Tech, long walks on the beach searching for seashells</li>
-			<li><strong>Fun Facts:</strong><br>  I am a one of triplets, I enjoy reading medical journals, and I have broken ever limb doing extreme sports. </li>
-			<li><strong>Credentials &amp; Associations:</strong><br>CPR Certified, HIPPA Compliance, Hoke Club Member, Autism Society, and Rett Syndrome Assocation</li>
+			<li><strong>Favorite Activity:</strong><br>Spending time with family and friends, tailgating for Virginia Tech, and long walks on the beach searching for seashells.</li>
+			<li><strong>Fun Facts:</strong><br>  I am a one of triplets, I enjoy reading medical journals, and I have broken every limb doing extreme sports. </li>
+			<li><strong>Credentials &amp; Associations:</strong><br>CPR certified, HIPPA Compliance, Hoke Club Member, Autism Society, and Rett Syndrome Assocation</li>
 		</ul>
 			</div>
 		</div>
@@ -134,7 +134,7 @@ $metadescription = "";
 	<h2>Jen<span class="header-label">Scheduling Coordinator</span></h2>
 
 		<ul class="small-hyphen-list">
-		<li><strong>Favorite Activity:</strong><br>Love all things outdoors, running, and the beach</li>
+		<li><strong>Favorite Activity:</strong><br>Love all things outdoors, running, and the beach.</li>
 		<li><strong>Favorite Foods:</strong><br>  Pizza and Mexican</li>
 		<li><strong>Fun Facts:</strong><br>  I have had my poetry published, have two beautiful girls, and by making lifestyle changes I have lost 100 pounds!</li>
 		<li><strong>Credentials and Associations:</strong><br>  CPR certified and PTA</li>
@@ -159,12 +159,12 @@ $metadescription = "";
 			</div>
 			<div class="large-8 medium-8 small-12 columns">
 
-		<h2>Whitney<span class="header-label">Captain, Orthodontic Technician, &amp; &quot;Go-To-Girl&quot;</span></h2>
+		<h2>Whitney<span class="header-label">Orthodontic Technician</span></h2>
 		<ul class="small-hyphen-list">
-		<li><strong>Favorite Activity:</strong><br>Cooking, camping, and laying on the beach </li>
-		<li><strong>Favorite Foods:</strong><br>  Salads and Tacos</li>
+		<li><strong>Favorite Activity:</strong><br>Cooking, camping, and laying on the beach. </li>
+		<li><strong>Favorite Foods:</strong><br>  Salads and tacos</li>
 		<li><strong>Fun Facts:</strong><br>  I enjoy making Christmas ornaments for family and friends. I have 2 dogs a cat and a guinea pig. I'm a formal wear specialist.</li>
-		<li><strong>Credentials and Associations:</strong><br>  CPR Certified, XRAY Certified</li>
+		<li><strong>Credentials and Associations:</strong><br>  CPR certified</li>
 	</ul>
 			</div>
 		</div>
@@ -189,10 +189,10 @@ $metadescription = "";
 
 	<h2>Rebecca<span class="header-label">Office Coordinator</span></h2>
 	<ul class="small-hyphen-list">
-		<li><strong>Favorite Activity:</strong><br>Watching my boys play sports. Laughing with family and friends</li>
-		<li><strong>Favorite Foods:</strong><br>  Mexican food, popcorn and Coffee</li>
+		<li><strong>Favorite Activity:</strong><br>Watching my boys play sports. Laughing with family and friends.</li>
+		<li><strong>Favorite Foods:</strong><br>  Mexican food, popcorn and coffee</li>
 		<li><strong>Fun Facts:</strong><br>  I love to dance. I was yellow carded at a soccer game! </li>
-		<li><strong>Credentials and Associations:</strong><br>  CPR certified, Shorthand and typing certificate, NCPTA 2003-2001, Rush Soccer Association, Beach FC Soccer Association, VWC men Soccer Association</li>
+		<li><strong>Credentials and Associations:</strong><br>  CPR certified, Shorthand and typing certificate, NCPTA 2003-2001, Rush Soccer Association, Beach FC Soccer Association, VWC Men Soccer Association</li>
 	</ul>
 			</div>
 		</div>
@@ -217,10 +217,10 @@ $metadescription = "";
 
 		<h2>Caroline<span class="header-label">Orthodontic Technician</span></h2>
 		<ul class="small-hyphen-list">
-			<li><strong>Favorite Activity:</strong><br>Spending time with my son, reading, museums, summer concerts and surfing.</li>
-			<li><strong>Favorite Foods:</strong><br>  Jelly Belly jelly beans and tacos</li>
-			<li><strong>Fun Facts:</strong><br>  I was a patient of this practice when i was younger. Started orthodontics in 2007</li>
-			<li><strong>Credentials and Associations:</strong><br>  CPR certified and XRAY certified</li>
+			<li><strong>Favorite Activity:</strong><br>Spending time with my husband, the beach, and skiing.</li>
+			<li><strong>Favorite Foods:</strong><br>  Pizza and Chick-Fil-A</li>
+			<li><strong>Fun Facts:</strong><br>  I am a diehard Redskins fan!</li>
+			<li><strong>Credentials and Associations:</strong><br>  CPR certified</li>
 		</ul>
 			</div>
 		</div>
