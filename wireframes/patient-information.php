@@ -6,12 +6,21 @@ $metadescription = "";
 
 <?php include("_layouts/default-head.php"); ?>
 
-
+     
 
 <div class="ribbon">
   <div class="row">
     <div class="large-10 large-centered medium-12 small-12 columns">
-           <div id="cd-nav">
+          
+        <h1>Information for Patients</h1>
+
+    </div>
+  </div>
+
+         
+</div>
+
+       <div id="cd-nav">
                 <a href="#0" class="cd-nav-trigger">Patient Info Menu<span></span></a> 
                 <nav id="cd-main-nav">
                     <ul>
@@ -22,15 +31,6 @@ $metadescription = "";
                     </ul>
                 </nav>
             </div>
-        <h1>Information for Patients</h1>
-
-    </div>
-  </div>
-
-         
-</div>
-
-
 
 <main id="main-content">
 
